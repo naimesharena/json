@@ -1,0 +1,5932 @@
+{
+  "metadata": {
+    "loggedInPan": "AAJCT9822B",
+    "jsonVersion": "12.0.0",
+    "downloadDate": "12-Mar-2026",
+    "utilityVersion": "12.0.0",
+    "sourceSharedFeedbackFeatureEnabled": true
+  },
+  "header": {
+    "title": "Annual Information Statement (AIS)",
+    "columnLabel": [
+      "Financial Year ",
+      "Assessment Year "
+    ],
+    "columnData": [
+      "2025-26",
+      "2026-27"
+    ]
+  },
+  "partA": {
+    "heading": "General Information",
+    "title": "Part A",
+    "columnLabel": [
+      "Permanent Account Number (PAN)",
+      "Aadhaar Number",
+      "Name of Assessee",
+      "Date of Incorporation/Formation",
+      "Mobile Number",
+      "E-mail Address",
+      "Address"
+    ],
+    "columnData": [
+      "AAJCT9822B",
+      "NA",
+      "THAY TECHWORKS PRIVATE LIMITED",
+      "17/03/2023",
+      "9925049579",
+      "vipul@diesel-world.net",
+      "673,SUMANGAL SOCIETY,NEAR KEJAL HOSPITAL,NAVSARI,NAVSARI,NAVSARI,396424,GUJARAT"
+    ]
+  },
+  "partB": {
+    "title": "",
+    "lastFeedbackMap": {},
+    "sections": [
+      {
+        "sectionKey": "tdsTcs",
+        "title": "Part B1-Information relating to tax deducted or collected at source",
+        "heading": "TDS/TCS Information",
+        "elements": [
+          {
+            "title": "Dividend",
+            "l2": {
+              "columnLabel": [
+                "Information Category",
+                "Information Code",
+                "Information Description",
+                "Information Source",
+                "Count",
+                "Amount",
+                "Information Category Code",
+                "Derived Amount",
+                "Qualifies For"
+              ],
+              "columnData": [
+                [
+                  "Dividend",
+                  "TDS-194",
+                  "Dividend received (Section 194)",
+                  "NIPPON LIFE INDIA ASSET MANAGEMENT LIMITED (MUMR07433G)",
+                  "2",
+                  "6,938.00",
+                  "DIV",
+                  null,
+                  ""
+                ]
+              ],
+              "columnDataType": [
+                "String",
+                "string",
+                "string",
+                "string",
+                "numeric",
+                "decimal",
+                "String",
+                "decimal",
+                "String"
+              ]
+            },
+            "l1Src": "AIS_TDS_TCS",
+            "l1": {
+              "columnLabel": [
+                {
+                  "field": "tsnId",
+                  "name": "TSN",
+                  "type": "string",
+                  "seq": 0,
+                  "sumRequired": "N",
+                  "isEditable": false,
+                  "isMandatory": false,
+                  "displayFeedback": false,
+                  "infoCode": null,
+                  "validationRegex": null
+                },
+                {
+                  "field": "quarter",
+                  "name": "Quarter",
+                  "type": "string",
+                  "seq": 1,
+                  "sumRequired": "N",
+                  "isEditable": false,
+                  "isMandatory": false,
+                  "displayFeedback": false,
+                  "infoCode": "TDS-194",
+                  "validationRegex": []
+                },
+                {
+                  "field": "transactionDate",
+                  "name": "Date of Payment/Credit",
+                  "type": "date",
+                  "seq": 2,
+                  "sumRequired": "N",
+                  "isEditable": false,
+                  "isMandatory": false,
+                  "displayFeedback": false,
+                  "infoCode": "TDS-194",
+                  "validationRegex": []
+                },
+                {
+                  "field": "amtPaid",
+                  "name": "Amount Paid/Credited",
+                  "type": "decimal",
+                  "seq": 3,
+                  "sumRequired": "Y",
+                  "isEditable": true,
+                  "isMandatory": true,
+                  "displayFeedback": true,
+                  "infoCode": "TDS-194",
+                  "validationRegex": [
+                    {
+                      "rule": "^\\d+$",
+                      "message": "Invalid input. Please enter numeric digits with amount greater than equal to '0'",
+                      "type": "regex"
+                    },
+                    {
+                      "rule": "^[0-9]*$",
+                      "message": "Invalid input. Please enter amount greater than equal to 0",
+                      "type": "regex"
+                    },
+                    {
+                      "rule": "^[0-9]{1,14}$",
+                      "message": "Only upto 14 length allowed",
+                      "type": "regex"
+                    }
+                  ]
+                },
+                {
+                  "field": "amountDeducted",
+                  "name": "TDS Deducted",
+                  "type": "decimal",
+                  "seq": 4,
+                  "sumRequired": "N",
+                  "isEditable": false,
+                  "isMandatory": false,
+                  "displayFeedback": false,
+                  "infoCode": "TDS-194",
+                  "validationRegex": []
+                },
+                {
+                  "field": "amountDeposited",
+                  "name": "TDS Deposited",
+                  "type": "decimal",
+                  "seq": 5,
+                  "sumRequired": "N",
+                  "isEditable": false,
+                  "isMandatory": false,
+                  "displayFeedback": false,
+                  "infoCode": "TDS-194",
+                  "validationRegex": []
+                },
+                {
+                  "field": "status",
+                  "name": "Status",
+                  "type": "string",
+                  "seq": 6,
+                  "sumRequired": "N",
+                  "isEditable": false,
+                  "isMandatory": false,
+                  "displayFeedback": false,
+                  "infoCode": "TDS-194",
+                  "validationRegex": []
+                },
+                {
+                  "field": "transFeedback",
+                  "name": "Feedback",
+                  "type": "string",
+                  "seq": 7,
+                  "sumRequired": "N",
+                  "isEditable": false,
+                  "isMandatory": false,
+                  "displayFeedback": false,
+                  "infoCode": null,
+                  "validationRegex": null
+                }
+              ],
+              "columnData": [
+                [
+                  "131251501652992",
+                  "Q3(Oct-Dec)",
+                  "06/11/2025",
+                  "3,978.00",
+                  "398.00",
+                  "398.00",
+                  "Active",
+                  "Optional",
+                  null,
+                  "MUMR07433G",
+                  "",
+                  null,
+                  null,
+                  null,
+                  ""
+                ],
+                [
+                  "131251149991600",
+                  "Q2(Jul-Sep)",
+                  "18/07/2025",
+                  "2,960.00",
+                  "296.00",
+                  "296.00",
+                  "Active",
+                  "Optional",
+                  null,
+                  "MUMR07433G",
+                  "",
+                  null,
+                  null,
+                  null,
+                  ""
+                ],
+                [
+                  "131251131715184",
+                  "Q2(Jul-Sep)",
+                  "18/07/2025",
+                  "2,960.00",
+                  "296.00",
+                  "296.00",
+                  "Inactive",
+                  "N/A",
+                  null,
+                  "MUMR07433G",
+                  "",
+                  null,
+                  null,
+                  null,
+                  ""
+                ],
+                [
+                  "131251087564121",
+                  "Q2(Jul-Sep)",
+                  "18/07/2025",
+                  "2,960.00",
+                  "296.00",
+                  "296.00",
+                  "Inactive",
+                  "N/A",
+                  null,
+                  "MUMR07433G",
+                  "",
+                  null,
+                  null,
+                  null,
+                  ""
+                ],
+                [
+                  "131250860419547",
+                  "Q2(Jul-Sep)",
+                  "18/07/2025",
+                  "2,960.00",
+                  "296.00",
+                  "296.00",
+                  "Inactive",
+                  "N/A",
+                  null,
+                  "MUMR07433G",
+                  "",
+                  null,
+                  null,
+                  null,
+                  ""
+                ]
+              ],
+              "columnDataType": [
+                "String",
+                "string",
+                "date",
+                "decimal",
+                "decimal",
+                "decimal",
+                "string",
+                "String",
+                "decimal",
+                "String",
+                "String",
+                "decimal",
+                "decimal",
+                "decimal",
+                "String"
+              ]
+            }
+          },
+          {
+            "title": "Dividend",
+            "l2": {
+              "columnLabel": [
+                "Information Category",
+                "Information Code",
+                "Information Description",
+                "Information Source",
+                "Count",
+                "Amount",
+                "Information Category Code",
+                "Derived Amount",
+                "Qualifies For"
+              ],
+              "columnData": [
+                [
+                  "Dividend",
+                  "TDS-194",
+                  "Dividend received (Section 194)",
+                  "STATE BANK OF INDIA (MUMS99307F)",
+                  "1",
+                  "5,867.00",
+                  "DIV",
+                  null,
+                  ""
+                ]
+              ],
+              "columnDataType": [
+                "String",
+                "string",
+                "string",
+                "string",
+                "numeric",
+                "decimal",
+                "String",
+                "decimal",
+                "String"
+              ]
+            },
+            "l1Src": "AIS_TDS_TCS",
+            "l1": {
+              "columnLabel": [
+                {
+                  "field": "tsnId",
+                  "name": "TSN",
+                  "type": "string",
+                  "seq": 0,
+                  "sumRequired": "N",
+                  "isEditable": false,
+                  "isMandatory": false,
+                  "displayFeedback": false,
+                  "infoCode": null,
+                  "validationRegex": null
+                },
+                {
+                  "field": "quarter",
+                  "name": "Quarter",
+                  "type": "string",
+                  "seq": 1,
+                  "sumRequired": "N",
+                  "isEditable": false,
+                  "isMandatory": false,
+                  "displayFeedback": false,
+                  "infoCode": "TDS-194",
+                  "validationRegex": []
+                },
+                {
+                  "field": "transactionDate",
+                  "name": "Date of Payment/Credit",
+                  "type": "date",
+                  "seq": 2,
+                  "sumRequired": "N",
+                  "isEditable": false,
+                  "isMandatory": false,
+                  "displayFeedback": false,
+                  "infoCode": "TDS-194",
+                  "validationRegex": []
+                },
+                {
+                  "field": "amtPaid",
+                  "name": "Amount Paid/Credited",
+                  "type": "decimal",
+                  "seq": 3,
+                  "sumRequired": "Y",
+                  "isEditable": true,
+                  "isMandatory": true,
+                  "displayFeedback": true,
+                  "infoCode": "TDS-194",
+                  "validationRegex": [
+                    {
+                      "rule": "^\\d+$",
+                      "message": "Invalid input. Please enter numeric digits with amount greater than equal to '0'",
+                      "type": "regex"
+                    },
+                    {
+                      "rule": "^[0-9]*$",
+                      "message": "Invalid input. Please enter amount greater than equal to 0",
+                      "type": "regex"
+                    },
+                    {
+                      "rule": "^[0-9]{1,14}$",
+                      "message": "Only upto 14 length allowed",
+                      "type": "regex"
+                    }
+                  ]
+                },
+                {
+                  "field": "amountDeducted",
+                  "name": "TDS Deducted",
+                  "type": "decimal",
+                  "seq": 4,
+                  "sumRequired": "N",
+                  "isEditable": false,
+                  "isMandatory": false,
+                  "displayFeedback": false,
+                  "infoCode": "TDS-194",
+                  "validationRegex": []
+                },
+                {
+                  "field": "amountDeposited",
+                  "name": "TDS Deposited",
+                  "type": "decimal",
+                  "seq": 5,
+                  "sumRequired": "N",
+                  "isEditable": false,
+                  "isMandatory": false,
+                  "displayFeedback": false,
+                  "infoCode": "TDS-194",
+                  "validationRegex": []
+                },
+                {
+                  "field": "status",
+                  "name": "Status",
+                  "type": "string",
+                  "seq": 6,
+                  "sumRequired": "N",
+                  "isEditable": false,
+                  "isMandatory": false,
+                  "displayFeedback": false,
+                  "infoCode": "TDS-194",
+                  "validationRegex": []
+                },
+                {
+                  "field": "transFeedback",
+                  "name": "Feedback",
+                  "type": "string",
+                  "seq": 7,
+                  "sumRequired": "N",
+                  "isEditable": false,
+                  "isMandatory": false,
+                  "displayFeedback": false,
+                  "infoCode": null,
+                  "validationRegex": null
+                }
+              ],
+              "columnData": [
+                [
+                  "131250460698722",
+                  "Q1(Apr-Jun)",
+                  "30/05/2025",
+                  "5,867.00",
+                  "587.00",
+                  "587.00",
+                  "Active",
+                  "Optional",
+                  null,
+                  "MUMS99307F",
+                  "",
+                  null,
+                  null,
+                  null,
+                  ""
+                ]
+              ],
+              "columnDataType": [
+                "String",
+                "string",
+                "date",
+                "decimal",
+                "decimal",
+                "decimal",
+                "string",
+                "String",
+                "decimal",
+                "String",
+                "String",
+                "decimal",
+                "decimal",
+                "decimal",
+                "String"
+              ]
+            }
+          },
+          {
+            "title": "Dividend",
+            "l2": {
+              "columnLabel": [
+                "Information Category",
+                "Information Code",
+                "Information Description",
+                "Information Source",
+                "Count",
+                "Amount",
+                "Information Category Code",
+                "Derived Amount",
+                "Qualifies For"
+              ],
+              "columnData": [
+                [
+                  "Dividend",
+                  "TDS-194",
+                  "Dividend received (Section 194)",
+                  "OIL AND NATURAL GAS CORPORATION LIMITED (DELO07879E)",
+                  "2",
+                  "4,386.00",
+                  "DIV",
+                  null,
+                  ""
+                ]
+              ],
+              "columnDataType": [
+                "String",
+                "string",
+                "string",
+                "string",
+                "numeric",
+                "decimal",
+                "String",
+                "decimal",
+                "String"
+              ]
+            },
+            "l1Src": "AIS_TDS_TCS",
+            "l1": {
+              "columnLabel": [
+                {
+                  "field": "tsnId",
+                  "name": "TSN",
+                  "type": "string",
+                  "seq": 0,
+                  "sumRequired": "N",
+                  "isEditable": false,
+                  "isMandatory": false,
+                  "displayFeedback": false,
+                  "infoCode": null,
+                  "validationRegex": null
+                },
+                {
+                  "field": "quarter",
+                  "name": "Quarter",
+                  "type": "string",
+                  "seq": 1,
+                  "sumRequired": "N",
+                  "isEditable": false,
+                  "isMandatory": false,
+                  "displayFeedback": false,
+                  "infoCode": "TDS-194",
+                  "validationRegex": []
+                },
+                {
+                  "field": "transactionDate",
+                  "name": "Date of Payment/Credit",
+                  "type": "date",
+                  "seq": 2,
+                  "sumRequired": "N",
+                  "isEditable": false,
+                  "isMandatory": false,
+                  "displayFeedback": false,
+                  "infoCode": "TDS-194",
+                  "validationRegex": []
+                },
+                {
+                  "field": "amtPaid",
+                  "name": "Amount Paid/Credited",
+                  "type": "decimal",
+                  "seq": 3,
+                  "sumRequired": "Y",
+                  "isEditable": true,
+                  "isMandatory": true,
+                  "displayFeedback": true,
+                  "infoCode": "TDS-194",
+                  "validationRegex": [
+                    {
+                      "rule": "^\\d+$",
+                      "message": "Invalid input. Please enter numeric digits with amount greater than equal to '0'",
+                      "type": "regex"
+                    },
+                    {
+                      "rule": "^[0-9]*$",
+                      "message": "Invalid input. Please enter amount greater than equal to 0",
+                      "type": "regex"
+                    },
+                    {
+                      "rule": "^[0-9]{1,14}$",
+                      "message": "Only upto 14 length allowed",
+                      "type": "regex"
+                    }
+                  ]
+                },
+                {
+                  "field": "amountDeducted",
+                  "name": "TDS Deducted",
+                  "type": "decimal",
+                  "seq": 4,
+                  "sumRequired": "N",
+                  "isEditable": false,
+                  "isMandatory": false,
+                  "displayFeedback": false,
+                  "infoCode": "TDS-194",
+                  "validationRegex": []
+                },
+                {
+                  "field": "amountDeposited",
+                  "name": "TDS Deposited",
+                  "type": "decimal",
+                  "seq": 5,
+                  "sumRequired": "N",
+                  "isEditable": false,
+                  "isMandatory": false,
+                  "displayFeedback": false,
+                  "infoCode": "TDS-194",
+                  "validationRegex": []
+                },
+                {
+                  "field": "status",
+                  "name": "Status",
+                  "type": "string",
+                  "seq": 6,
+                  "sumRequired": "N",
+                  "isEditable": false,
+                  "isMandatory": false,
+                  "displayFeedback": false,
+                  "infoCode": "TDS-194",
+                  "validationRegex": []
+                },
+                {
+                  "field": "transFeedback",
+                  "name": "Feedback",
+                  "type": "string",
+                  "seq": 7,
+                  "sumRequired": "N",
+                  "isEditable": false,
+                  "isMandatory": false,
+                  "displayFeedback": false,
+                  "infoCode": null,
+                  "validationRegex": null
+                }
+              ],
+              "columnData": [
+                [
+                  "131251487132718",
+                  "Q3(Oct-Dec)",
+                  "26/11/2025",
+                  "3,630.00",
+                  "363.00",
+                  "363.00",
+                  "Active",
+                  "Optional",
+                  null,
+                  "DELO07879E",
+                  "",
+                  null,
+                  null,
+                  null,
+                  ""
+                ],
+                [
+                  "131250927621069",
+                  "Q2(Jul-Sep)",
+                  "17/09/2025",
+                  "756.00",
+                  "76.00",
+                  "76.00",
+                  "Active",
+                  "Optional",
+                  null,
+                  "DELO07879E",
+                  "",
+                  null,
+                  null,
+                  null,
+                  ""
+                ]
+              ],
+              "columnDataType": [
+                "String",
+                "string",
+                "date",
+                "decimal",
+                "decimal",
+                "decimal",
+                "string",
+                "String",
+                "decimal",
+                "String",
+                "String",
+                "decimal",
+                "decimal",
+                "decimal",
+                "String"
+              ]
+            }
+          },
+          {
+            "title": "Dividend",
+            "l2": {
+              "columnLabel": [
+                "Information Category",
+                "Information Code",
+                "Information Description",
+                "Information Source",
+                "Count",
+                "Amount",
+                "Information Category Code",
+                "Derived Amount",
+                "Qualifies For"
+              ],
+              "columnData": [
+                [
+                  "Dividend",
+                  "TDS-194",
+                  "Dividend received (Section 194)",
+                  "MUTHOOT FINANCE LIMITED (CHNT00811G)",
+                  "1",
+                  "3,380.00",
+                  "DIV",
+                  null,
+                  ""
+                ]
+              ],
+              "columnDataType": [
+                "String",
+                "string",
+                "string",
+                "string",
+                "numeric",
+                "decimal",
+                "String",
+                "decimal",
+                "String"
+              ]
+            },
+            "l1Src": "AIS_TDS_TCS",
+            "l1": {
+              "columnLabel": [
+                {
+                  "field": "tsnId",
+                  "name": "TSN",
+                  "type": "string",
+                  "seq": 0,
+                  "sumRequired": "N",
+                  "isEditable": false,
+                  "isMandatory": false,
+                  "displayFeedback": false,
+                  "infoCode": null,
+                  "validationRegex": null
+                },
+                {
+                  "field": "quarter",
+                  "name": "Quarter",
+                  "type": "string",
+                  "seq": 1,
+                  "sumRequired": "N",
+                  "isEditable": false,
+                  "isMandatory": false,
+                  "displayFeedback": false,
+                  "infoCode": "TDS-194",
+                  "validationRegex": []
+                },
+                {
+                  "field": "transactionDate",
+                  "name": "Date of Payment/Credit",
+                  "type": "date",
+                  "seq": 2,
+                  "sumRequired": "N",
+                  "isEditable": false,
+                  "isMandatory": false,
+                  "displayFeedback": false,
+                  "infoCode": "TDS-194",
+                  "validationRegex": []
+                },
+                {
+                  "field": "amtPaid",
+                  "name": "Amount Paid/Credited",
+                  "type": "decimal",
+                  "seq": 3,
+                  "sumRequired": "Y",
+                  "isEditable": true,
+                  "isMandatory": true,
+                  "displayFeedback": true,
+                  "infoCode": "TDS-194",
+                  "validationRegex": [
+                    {
+                      "rule": "^\\d+$",
+                      "message": "Invalid input. Please enter numeric digits with amount greater than equal to '0'",
+                      "type": "regex"
+                    },
+                    {
+                      "rule": "^[0-9]*$",
+                      "message": "Invalid input. Please enter amount greater than equal to 0",
+                      "type": "regex"
+                    },
+                    {
+                      "rule": "^[0-9]{1,14}$",
+                      "message": "Only upto 14 length allowed",
+                      "type": "regex"
+                    }
+                  ]
+                },
+                {
+                  "field": "amountDeducted",
+                  "name": "TDS Deducted",
+                  "type": "decimal",
+                  "seq": 4,
+                  "sumRequired": "N",
+                  "isEditable": false,
+                  "isMandatory": false,
+                  "displayFeedback": false,
+                  "infoCode": "TDS-194",
+                  "validationRegex": []
+                },
+                {
+                  "field": "amountDeposited",
+                  "name": "TDS Deposited",
+                  "type": "decimal",
+                  "seq": 5,
+                  "sumRequired": "N",
+                  "isEditable": false,
+                  "isMandatory": false,
+                  "displayFeedback": false,
+                  "infoCode": "TDS-194",
+                  "validationRegex": []
+                },
+                {
+                  "field": "status",
+                  "name": "Status",
+                  "type": "string",
+                  "seq": 6,
+                  "sumRequired": "N",
+                  "isEditable": false,
+                  "isMandatory": false,
+                  "displayFeedback": false,
+                  "infoCode": "TDS-194",
+                  "validationRegex": []
+                },
+                {
+                  "field": "transFeedback",
+                  "name": "Feedback",
+                  "type": "string",
+                  "seq": 7,
+                  "sumRequired": "N",
+                  "isEditable": false,
+                  "isMandatory": false,
+                  "displayFeedback": false,
+                  "infoCode": null,
+                  "validationRegex": null
+                }
+              ],
+              "columnData": [
+                [
+                  "131250175134170",
+                  "Q1(Apr-Jun)",
+                  "31/05/2025",
+                  "3,380.00",
+                  "338.00",
+                  "338.00",
+                  "Active",
+                  "Optional",
+                  null,
+                  "CHNT00811G",
+                  "",
+                  null,
+                  null,
+                  null,
+                  ""
+                ]
+              ],
+              "columnDataType": [
+                "String",
+                "string",
+                "date",
+                "decimal",
+                "decimal",
+                "decimal",
+                "string",
+                "String",
+                "decimal",
+                "String",
+                "String",
+                "decimal",
+                "decimal",
+                "decimal",
+                "String"
+              ]
+            }
+          },
+          {
+            "title": "Dividend",
+            "l2": {
+              "columnLabel": [
+                "Information Category",
+                "Information Code",
+                "Information Description",
+                "Information Source",
+                "Count",
+                "Amount",
+                "Information Category Code",
+                "Derived Amount",
+                "Qualifies For"
+              ],
+              "columnData": [
+                [
+                  "Dividend",
+                  "TDS-194",
+                  "Dividend received (Section 194)",
+                  "SHRIRAM FINANCE LIMITED (CHES00900E)",
+                  "2",
+                  "3,338.00",
+                  "DIV",
+                  null,
+                  ""
+                ]
+              ],
+              "columnDataType": [
+                "String",
+                "string",
+                "string",
+                "string",
+                "numeric",
+                "decimal",
+                "String",
+                "decimal",
+                "String"
+              ]
+            },
+            "l1Src": "AIS_TDS_TCS",
+            "l1": {
+              "columnLabel": [
+                {
+                  "field": "tsnId",
+                  "name": "TSN",
+                  "type": "string",
+                  "seq": 0,
+                  "sumRequired": "N",
+                  "isEditable": false,
+                  "isMandatory": false,
+                  "displayFeedback": false,
+                  "infoCode": null,
+                  "validationRegex": null
+                },
+                {
+                  "field": "quarter",
+                  "name": "Quarter",
+                  "type": "string",
+                  "seq": 1,
+                  "sumRequired": "N",
+                  "isEditable": false,
+                  "isMandatory": false,
+                  "displayFeedback": false,
+                  "infoCode": "TDS-194",
+                  "validationRegex": []
+                },
+                {
+                  "field": "transactionDate",
+                  "name": "Date of Payment/Credit",
+                  "type": "date",
+                  "seq": 2,
+                  "sumRequired": "N",
+                  "isEditable": false,
+                  "isMandatory": false,
+                  "displayFeedback": false,
+                  "infoCode": "TDS-194",
+                  "validationRegex": []
+                },
+                {
+                  "field": "amtPaid",
+                  "name": "Amount Paid/Credited",
+                  "type": "decimal",
+                  "seq": 3,
+                  "sumRequired": "Y",
+                  "isEditable": true,
+                  "isMandatory": true,
+                  "displayFeedback": true,
+                  "infoCode": "TDS-194",
+                  "validationRegex": [
+                    {
+                      "rule": "^\\d+$",
+                      "message": "Invalid input. Please enter numeric digits with amount greater than equal to '0'",
+                      "type": "regex"
+                    },
+                    {
+                      "rule": "^[0-9]*$",
+                      "message": "Invalid input. Please enter amount greater than equal to 0",
+                      "type": "regex"
+                    },
+                    {
+                      "rule": "^[0-9]{1,14}$",
+                      "message": "Only upto 14 length allowed",
+                      "type": "regex"
+                    }
+                  ]
+                },
+                {
+                  "field": "amountDeducted",
+                  "name": "TDS Deducted",
+                  "type": "decimal",
+                  "seq": 4,
+                  "sumRequired": "N",
+                  "isEditable": false,
+                  "isMandatory": false,
+                  "displayFeedback": false,
+                  "infoCode": "TDS-194",
+                  "validationRegex": []
+                },
+                {
+                  "field": "amountDeposited",
+                  "name": "TDS Deposited",
+                  "type": "decimal",
+                  "seq": 5,
+                  "sumRequired": "N",
+                  "isEditable": false,
+                  "isMandatory": false,
+                  "displayFeedback": false,
+                  "infoCode": "TDS-194",
+                  "validationRegex": []
+                },
+                {
+                  "field": "status",
+                  "name": "Status",
+                  "type": "string",
+                  "seq": 6,
+                  "sumRequired": "N",
+                  "isEditable": false,
+                  "isMandatory": false,
+                  "displayFeedback": false,
+                  "infoCode": "TDS-194",
+                  "validationRegex": []
+                },
+                {
+                  "field": "transFeedback",
+                  "name": "Feedback",
+                  "type": "string",
+                  "seq": 7,
+                  "sumRequired": "N",
+                  "isEditable": false,
+                  "isMandatory": false,
+                  "displayFeedback": false,
+                  "infoCode": null,
+                  "validationRegex": null
+                }
+              ],
+              "columnData": [
+                [
+                  "131251276550683",
+                  "Q3(Oct-Dec)",
+                  "17/11/2025",
+                  "2,054.00",
+                  "205.00",
+                  "205.00",
+                  "Active",
+                  "Optional",
+                  null,
+                  "CHES00900E",
+                  "",
+                  null,
+                  null,
+                  null,
+                  ""
+                ],
+                [
+                  "131250762867554",
+                  "Q2(Jul-Sep)",
+                  "30/07/2025",
+                  "1,284.00",
+                  "129.00",
+                  "129.00",
+                  "Active",
+                  "Optional",
+                  null,
+                  "CHES00900E",
+                  "",
+                  null,
+                  null,
+                  null,
+                  ""
+                ]
+              ],
+              "columnDataType": [
+                "String",
+                "string",
+                "date",
+                "decimal",
+                "decimal",
+                "decimal",
+                "string",
+                "String",
+                "decimal",
+                "String",
+                "String",
+                "decimal",
+                "decimal",
+                "decimal",
+                "String"
+              ]
+            }
+          },
+          {
+            "title": "Dividend",
+            "l2": {
+              "columnLabel": [
+                "Information Category",
+                "Information Code",
+                "Information Description",
+                "Information Source",
+                "Count",
+                "Amount",
+                "Information Category Code",
+                "Derived Amount",
+                "Qualifies For"
+              ],
+              "columnData": [
+                [
+                  "Dividend",
+                  "TDS-194",
+                  "Dividend received (Section 194)",
+                  "LARSEN AND TOUBRO LIMITED (MUML00051C)",
+                  "1",
+                  "2,346.00",
+                  "DIV",
+                  null,
+                  ""
+                ]
+              ],
+              "columnDataType": [
+                "String",
+                "string",
+                "string",
+                "string",
+                "numeric",
+                "decimal",
+                "String",
+                "decimal",
+                "String"
+              ]
+            },
+            "l1Src": "AIS_TDS_TCS",
+            "l1": {
+              "columnLabel": [
+                {
+                  "field": "tsnId",
+                  "name": "TSN",
+                  "type": "string",
+                  "seq": 0,
+                  "sumRequired": "N",
+                  "isEditable": false,
+                  "isMandatory": false,
+                  "displayFeedback": false,
+                  "infoCode": null,
+                  "validationRegex": null
+                },
+                {
+                  "field": "quarter",
+                  "name": "Quarter",
+                  "type": "string",
+                  "seq": 1,
+                  "sumRequired": "N",
+                  "isEditable": false,
+                  "isMandatory": false,
+                  "displayFeedback": false,
+                  "infoCode": "TDS-194",
+                  "validationRegex": []
+                },
+                {
+                  "field": "transactionDate",
+                  "name": "Date of Payment/Credit",
+                  "type": "date",
+                  "seq": 2,
+                  "sumRequired": "N",
+                  "isEditable": false,
+                  "isMandatory": false,
+                  "displayFeedback": false,
+                  "infoCode": "TDS-194",
+                  "validationRegex": []
+                },
+                {
+                  "field": "amtPaid",
+                  "name": "Amount Paid/Credited",
+                  "type": "decimal",
+                  "seq": 3,
+                  "sumRequired": "Y",
+                  "isEditable": true,
+                  "isMandatory": true,
+                  "displayFeedback": true,
+                  "infoCode": "TDS-194",
+                  "validationRegex": [
+                    {
+                      "rule": "^\\d+$",
+                      "message": "Invalid input. Please enter numeric digits with amount greater than equal to '0'",
+                      "type": "regex"
+                    },
+                    {
+                      "rule": "^[0-9]*$",
+                      "message": "Invalid input. Please enter amount greater than equal to 0",
+                      "type": "regex"
+                    },
+                    {
+                      "rule": "^[0-9]{1,14}$",
+                      "message": "Only upto 14 length allowed",
+                      "type": "regex"
+                    }
+                  ]
+                },
+                {
+                  "field": "amountDeducted",
+                  "name": "TDS Deducted",
+                  "type": "decimal",
+                  "seq": 4,
+                  "sumRequired": "N",
+                  "isEditable": false,
+                  "isMandatory": false,
+                  "displayFeedback": false,
+                  "infoCode": "TDS-194",
+                  "validationRegex": []
+                },
+                {
+                  "field": "amountDeposited",
+                  "name": "TDS Deposited",
+                  "type": "decimal",
+                  "seq": 5,
+                  "sumRequired": "N",
+                  "isEditable": false,
+                  "isMandatory": false,
+                  "displayFeedback": false,
+                  "infoCode": "TDS-194",
+                  "validationRegex": []
+                },
+                {
+                  "field": "status",
+                  "name": "Status",
+                  "type": "string",
+                  "seq": 6,
+                  "sumRequired": "N",
+                  "isEditable": false,
+                  "isMandatory": false,
+                  "displayFeedback": false,
+                  "infoCode": "TDS-194",
+                  "validationRegex": []
+                },
+                {
+                  "field": "transFeedback",
+                  "name": "Feedback",
+                  "type": "string",
+                  "seq": 7,
+                  "sumRequired": "N",
+                  "isEditable": false,
+                  "isMandatory": false,
+                  "displayFeedback": false,
+                  "infoCode": null,
+                  "validationRegex": null
+                }
+              ],
+              "columnData": [
+                [
+                  "131251112250466",
+                  "Q1(Apr-Jun)",
+                  "17/06/2025",
+                  "2,346.00",
+                  "235.00",
+                  "235.00",
+                  "Active",
+                  "Optional",
+                  null,
+                  "MUML00051C",
+                  "",
+                  null,
+                  null,
+                  null,
+                  ""
+                ],
+                [
+                  "131250111097210",
+                  "Q1(Apr-Jun)",
+                  "17/06/2025",
+                  "2,346.00",
+                  "235.00",
+                  "235.00",
+                  "Inactive",
+                  "N/A",
+                  null,
+                  "MUML00051C",
+                  "",
+                  null,
+                  null,
+                  null,
+                  ""
+                ]
+              ],
+              "columnDataType": [
+                "String",
+                "string",
+                "date",
+                "decimal",
+                "decimal",
+                "decimal",
+                "string",
+                "String",
+                "decimal",
+                "String",
+                "String",
+                "decimal",
+                "decimal",
+                "decimal",
+                "String"
+              ]
+            }
+          },
+          {
+            "title": "Dividend",
+            "l2": {
+              "columnLabel": [
+                "Information Category",
+                "Information Code",
+                "Information Description",
+                "Information Source",
+                "Count",
+                "Amount",
+                "Information Category Code",
+                "Derived Amount",
+                "Qualifies For"
+              ],
+              "columnData": [
+                [
+                  "Dividend",
+                  "TDS-194",
+                  "Dividend received (Section 194)",
+                  "CENTRAL DEPOSITORY SERVICES (INDIA) LIMITED (MUMC09975A)",
+                  "1",
+                  "1,962.00",
+                  "DIV",
+                  null,
+                  ""
+                ]
+              ],
+              "columnDataType": [
+                "String",
+                "string",
+                "string",
+                "string",
+                "numeric",
+                "decimal",
+                "String",
+                "decimal",
+                "String"
+              ]
+            },
+            "l1Src": "AIS_TDS_TCS",
+            "l1": {
+              "columnLabel": [
+                {
+                  "field": "tsnId",
+                  "name": "TSN",
+                  "type": "string",
+                  "seq": 0,
+                  "sumRequired": "N",
+                  "isEditable": false,
+                  "isMandatory": false,
+                  "displayFeedback": false,
+                  "infoCode": null,
+                  "validationRegex": null
+                },
+                {
+                  "field": "quarter",
+                  "name": "Quarter",
+                  "type": "string",
+                  "seq": 1,
+                  "sumRequired": "N",
+                  "isEditable": false,
+                  "isMandatory": false,
+                  "displayFeedback": false,
+                  "infoCode": "TDS-194",
+                  "validationRegex": []
+                },
+                {
+                  "field": "transactionDate",
+                  "name": "Date of Payment/Credit",
+                  "type": "date",
+                  "seq": 2,
+                  "sumRequired": "N",
+                  "isEditable": false,
+                  "isMandatory": false,
+                  "displayFeedback": false,
+                  "infoCode": "TDS-194",
+                  "validationRegex": []
+                },
+                {
+                  "field": "amtPaid",
+                  "name": "Amount Paid/Credited",
+                  "type": "decimal",
+                  "seq": 3,
+                  "sumRequired": "Y",
+                  "isEditable": true,
+                  "isMandatory": true,
+                  "displayFeedback": true,
+                  "infoCode": "TDS-194",
+                  "validationRegex": [
+                    {
+                      "rule": "^\\d+$",
+                      "message": "Invalid input. Please enter numeric digits with amount greater than equal to '0'",
+                      "type": "regex"
+                    },
+                    {
+                      "rule": "^[0-9]*$",
+                      "message": "Invalid input. Please enter amount greater than equal to 0",
+                      "type": "regex"
+                    },
+                    {
+                      "rule": "^[0-9]{1,14}$",
+                      "message": "Only upto 14 length allowed",
+                      "type": "regex"
+                    }
+                  ]
+                },
+                {
+                  "field": "amountDeducted",
+                  "name": "TDS Deducted",
+                  "type": "decimal",
+                  "seq": 4,
+                  "sumRequired": "N",
+                  "isEditable": false,
+                  "isMandatory": false,
+                  "displayFeedback": false,
+                  "infoCode": "TDS-194",
+                  "validationRegex": []
+                },
+                {
+                  "field": "amountDeposited",
+                  "name": "TDS Deposited",
+                  "type": "decimal",
+                  "seq": 5,
+                  "sumRequired": "N",
+                  "isEditable": false,
+                  "isMandatory": false,
+                  "displayFeedback": false,
+                  "infoCode": "TDS-194",
+                  "validationRegex": []
+                },
+                {
+                  "field": "status",
+                  "name": "Status",
+                  "type": "string",
+                  "seq": 6,
+                  "sumRequired": "N",
+                  "isEditable": false,
+                  "isMandatory": false,
+                  "displayFeedback": false,
+                  "infoCode": "TDS-194",
+                  "validationRegex": []
+                },
+                {
+                  "field": "transFeedback",
+                  "name": "Feedback",
+                  "type": "string",
+                  "seq": 7,
+                  "sumRequired": "N",
+                  "isEditable": false,
+                  "isMandatory": false,
+                  "displayFeedback": false,
+                  "infoCode": null,
+                  "validationRegex": null
+                }
+              ],
+              "columnData": [
+                [
+                  "131250861341088",
+                  "Q2(Jul-Sep)",
+                  "14/08/2025",
+                  "1,962.00",
+                  "197.00",
+                  "197.00",
+                  "Active",
+                  "Optional",
+                  null,
+                  "MUMC09975A",
+                  "",
+                  null,
+                  null,
+                  null,
+                  ""
+                ]
+              ],
+              "columnDataType": [
+                "String",
+                "string",
+                "date",
+                "decimal",
+                "decimal",
+                "decimal",
+                "string",
+                "String",
+                "decimal",
+                "String",
+                "String",
+                "decimal",
+                "decimal",
+                "decimal",
+                "String"
+              ]
+            }
+          },
+          {
+            "title": "Dividend",
+            "l2": {
+              "columnLabel": [
+                "Information Category",
+                "Information Code",
+                "Information Description",
+                "Information Source",
+                "Count",
+                "Amount",
+                "Information Category Code",
+                "Derived Amount",
+                "Qualifies For"
+              ],
+              "columnData": [
+                [
+                  "Dividend",
+                  "TDS-194",
+                  "Dividend received (Section 194)",
+                  "MAHINDRA & MAHINDRA LTD. (MUMM18898F)",
+                  "1",
+                  "1,847.00",
+                  "DIV",
+                  null,
+                  ""
+                ]
+              ],
+              "columnDataType": [
+                "String",
+                "string",
+                "string",
+                "string",
+                "numeric",
+                "decimal",
+                "String",
+                "decimal",
+                "String"
+              ]
+            },
+            "l1Src": "AIS_TDS_TCS",
+            "l1": {
+              "columnLabel": [
+                {
+                  "field": "tsnId",
+                  "name": "TSN",
+                  "type": "string",
+                  "seq": 0,
+                  "sumRequired": "N",
+                  "isEditable": false,
+                  "isMandatory": false,
+                  "displayFeedback": false,
+                  "infoCode": null,
+                  "validationRegex": null
+                },
+                {
+                  "field": "quarter",
+                  "name": "Quarter",
+                  "type": "string",
+                  "seq": 1,
+                  "sumRequired": "N",
+                  "isEditable": false,
+                  "isMandatory": false,
+                  "displayFeedback": false,
+                  "infoCode": "TDS-194",
+                  "validationRegex": []
+                },
+                {
+                  "field": "transactionDate",
+                  "name": "Date of Payment/Credit",
+                  "type": "date",
+                  "seq": 2,
+                  "sumRequired": "N",
+                  "isEditable": false,
+                  "isMandatory": false,
+                  "displayFeedback": false,
+                  "infoCode": "TDS-194",
+                  "validationRegex": []
+                },
+                {
+                  "field": "amtPaid",
+                  "name": "Amount Paid/Credited",
+                  "type": "decimal",
+                  "seq": 3,
+                  "sumRequired": "Y",
+                  "isEditable": true,
+                  "isMandatory": true,
+                  "displayFeedback": true,
+                  "infoCode": "TDS-194",
+                  "validationRegex": [
+                    {
+                      "rule": "^\\d+$",
+                      "message": "Invalid input. Please enter numeric digits with amount greater than equal to '0'",
+                      "type": "regex"
+                    },
+                    {
+                      "rule": "^[0-9]*$",
+                      "message": "Invalid input. Please enter amount greater than equal to 0",
+                      "type": "regex"
+                    },
+                    {
+                      "rule": "^[0-9]{1,14}$",
+                      "message": "Only upto 14 length allowed",
+                      "type": "regex"
+                    }
+                  ]
+                },
+                {
+                  "field": "amountDeducted",
+                  "name": "TDS Deducted",
+                  "type": "decimal",
+                  "seq": 4,
+                  "sumRequired": "N",
+                  "isEditable": false,
+                  "isMandatory": false,
+                  "displayFeedback": false,
+                  "infoCode": "TDS-194",
+                  "validationRegex": []
+                },
+                {
+                  "field": "amountDeposited",
+                  "name": "TDS Deposited",
+                  "type": "decimal",
+                  "seq": 5,
+                  "sumRequired": "N",
+                  "isEditable": false,
+                  "isMandatory": false,
+                  "displayFeedback": false,
+                  "infoCode": "TDS-194",
+                  "validationRegex": []
+                },
+                {
+                  "field": "status",
+                  "name": "Status",
+                  "type": "string",
+                  "seq": 6,
+                  "sumRequired": "N",
+                  "isEditable": false,
+                  "isMandatory": false,
+                  "displayFeedback": false,
+                  "infoCode": "TDS-194",
+                  "validationRegex": []
+                },
+                {
+                  "field": "transFeedback",
+                  "name": "Feedback",
+                  "type": "string",
+                  "seq": 7,
+                  "sumRequired": "N",
+                  "isEditable": false,
+                  "isMandatory": false,
+                  "displayFeedback": false,
+                  "infoCode": null,
+                  "validationRegex": null
+                }
+              ],
+              "columnData": [
+                [
+                  "131250475937941",
+                  "Q2(Jul-Sep)",
+                  "31/07/2025",
+                  "1,847.00",
+                  "185.00",
+                  "185.00",
+                  "Active",
+                  "Optional",
+                  null,
+                  "MUMM18898F",
+                  "",
+                  null,
+                  null,
+                  null,
+                  ""
+                ]
+              ],
+              "columnDataType": [
+                "String",
+                "string",
+                "date",
+                "decimal",
+                "decimal",
+                "decimal",
+                "string",
+                "String",
+                "decimal",
+                "String",
+                "String",
+                "decimal",
+                "decimal",
+                "decimal",
+                "String"
+              ]
+            }
+          },
+          {
+            "title": "Dividend",
+            "l2": {
+              "columnLabel": [
+                "Information Category",
+                "Information Code",
+                "Information Description",
+                "Information Source",
+                "Count",
+                "Amount",
+                "Information Category Code",
+                "Derived Amount",
+                "Qualifies For"
+              ],
+              "columnData": [
+                [
+                  "Dividend",
+                  "TDS-194",
+                  "Dividend received (Section 194)",
+                  "BAJAJ FINANCE LIMITED (PNEB15964E)",
+                  "2",
+                  "1,456.00",
+                  "DIV",
+                  null,
+                  ""
+                ]
+              ],
+              "columnDataType": [
+                "String",
+                "string",
+                "string",
+                "string",
+                "numeric",
+                "decimal",
+                "String",
+                "decimal",
+                "String"
+              ]
+            },
+            "l1Src": "AIS_TDS_TCS",
+            "l1": {
+              "columnLabel": [
+                {
+                  "field": "tsnId",
+                  "name": "TSN",
+                  "type": "string",
+                  "seq": 0,
+                  "sumRequired": "N",
+                  "isEditable": false,
+                  "isMandatory": false,
+                  "displayFeedback": false,
+                  "infoCode": null,
+                  "validationRegex": null
+                },
+                {
+                  "field": "quarter",
+                  "name": "Quarter",
+                  "type": "string",
+                  "seq": 1,
+                  "sumRequired": "N",
+                  "isEditable": false,
+                  "isMandatory": false,
+                  "displayFeedback": false,
+                  "infoCode": "TDS-194",
+                  "validationRegex": []
+                },
+                {
+                  "field": "transactionDate",
+                  "name": "Date of Payment/Credit",
+                  "type": "date",
+                  "seq": 2,
+                  "sumRequired": "N",
+                  "isEditable": false,
+                  "isMandatory": false,
+                  "displayFeedback": false,
+                  "infoCode": "TDS-194",
+                  "validationRegex": []
+                },
+                {
+                  "field": "amtPaid",
+                  "name": "Amount Paid/Credited",
+                  "type": "decimal",
+                  "seq": 3,
+                  "sumRequired": "Y",
+                  "isEditable": true,
+                  "isMandatory": true,
+                  "displayFeedback": true,
+                  "infoCode": "TDS-194",
+                  "validationRegex": [
+                    {
+                      "rule": "^\\d+$",
+                      "message": "Invalid input. Please enter numeric digits with amount greater than equal to '0'",
+                      "type": "regex"
+                    },
+                    {
+                      "rule": "^[0-9]*$",
+                      "message": "Invalid input. Please enter amount greater than equal to 0",
+                      "type": "regex"
+                    },
+                    {
+                      "rule": "^[0-9]{1,14}$",
+                      "message": "Only upto 14 length allowed",
+                      "type": "regex"
+                    }
+                  ]
+                },
+                {
+                  "field": "amountDeducted",
+                  "name": "TDS Deducted",
+                  "type": "decimal",
+                  "seq": 4,
+                  "sumRequired": "N",
+                  "isEditable": false,
+                  "isMandatory": false,
+                  "displayFeedback": false,
+                  "infoCode": "TDS-194",
+                  "validationRegex": []
+                },
+                {
+                  "field": "amountDeposited",
+                  "name": "TDS Deposited",
+                  "type": "decimal",
+                  "seq": 5,
+                  "sumRequired": "N",
+                  "isEditable": false,
+                  "isMandatory": false,
+                  "displayFeedback": false,
+                  "infoCode": "TDS-194",
+                  "validationRegex": []
+                },
+                {
+                  "field": "status",
+                  "name": "Status",
+                  "type": "string",
+                  "seq": 6,
+                  "sumRequired": "N",
+                  "isEditable": false,
+                  "isMandatory": false,
+                  "displayFeedback": false,
+                  "infoCode": "TDS-194",
+                  "validationRegex": []
+                },
+                {
+                  "field": "transFeedback",
+                  "name": "Feedback",
+                  "type": "string",
+                  "seq": 7,
+                  "sumRequired": "N",
+                  "isEditable": false,
+                  "isMandatory": false,
+                  "displayFeedback": false,
+                  "infoCode": null,
+                  "validationRegex": null
+                }
+              ],
+              "columnData": [
+                [
+                  "131250547505415",
+                  "Q2(Jul-Sep)",
+                  "24/07/2025",
+                  "1,144.00",
+                  "115.00",
+                  "115.00",
+                  "Active",
+                  "Optional",
+                  null,
+                  "PNEB15964E",
+                  "",
+                  null,
+                  null,
+                  null,
+                  ""
+                ],
+                [
+                  "131250067188746",
+                  "Q1(Apr-Jun)",
+                  "26/05/2025",
+                  "312.00",
+                  "32.00",
+                  "32.00",
+                  "Active",
+                  "Optional",
+                  null,
+                  "PNEB15964E",
+                  "",
+                  null,
+                  null,
+                  null,
+                  ""
+                ]
+              ],
+              "columnDataType": [
+                "String",
+                "string",
+                "date",
+                "decimal",
+                "decimal",
+                "decimal",
+                "string",
+                "String",
+                "decimal",
+                "String",
+                "String",
+                "decimal",
+                "decimal",
+                "decimal",
+                "String"
+              ]
+            }
+          },
+          {
+            "title": "Dividend",
+            "l2": {
+              "columnLabel": [
+                "Information Category",
+                "Information Code",
+                "Information Description",
+                "Information Source",
+                "Count",
+                "Amount",
+                "Information Category Code",
+                "Derived Amount",
+                "Qualifies For"
+              ],
+              "columnData": [
+                [
+                  "Dividend",
+                  "TDS-194",
+                  "Dividend received (Section 194)",
+                  "GILLETTE INDIA LIMITED (MUMG12311F)",
+                  "1",
+                  "1,316.00",
+                  "DIV",
+                  null,
+                  ""
+                ]
+              ],
+              "columnDataType": [
+                "String",
+                "string",
+                "string",
+                "string",
+                "numeric",
+                "decimal",
+                "String",
+                "decimal",
+                "String"
+              ]
+            },
+            "l1Src": "AIS_TDS_TCS",
+            "l1": {
+              "columnLabel": [
+                {
+                  "field": "tsnId",
+                  "name": "TSN",
+                  "type": "string",
+                  "seq": 0,
+                  "sumRequired": "N",
+                  "isEditable": false,
+                  "isMandatory": false,
+                  "displayFeedback": false,
+                  "infoCode": null,
+                  "validationRegex": null
+                },
+                {
+                  "field": "quarter",
+                  "name": "Quarter",
+                  "type": "string",
+                  "seq": 1,
+                  "sumRequired": "N",
+                  "isEditable": false,
+                  "isMandatory": false,
+                  "displayFeedback": false,
+                  "infoCode": "TDS-194",
+                  "validationRegex": []
+                },
+                {
+                  "field": "transactionDate",
+                  "name": "Date of Payment/Credit",
+                  "type": "date",
+                  "seq": 2,
+                  "sumRequired": "N",
+                  "isEditable": false,
+                  "isMandatory": false,
+                  "displayFeedback": false,
+                  "infoCode": "TDS-194",
+                  "validationRegex": []
+                },
+                {
+                  "field": "amtPaid",
+                  "name": "Amount Paid/Credited",
+                  "type": "decimal",
+                  "seq": 3,
+                  "sumRequired": "Y",
+                  "isEditable": true,
+                  "isMandatory": true,
+                  "displayFeedback": true,
+                  "infoCode": "TDS-194",
+                  "validationRegex": [
+                    {
+                      "rule": "^\\d+$",
+                      "message": "Invalid input. Please enter numeric digits with amount greater than equal to '0'",
+                      "type": "regex"
+                    },
+                    {
+                      "rule": "^[0-9]*$",
+                      "message": "Invalid input. Please enter amount greater than equal to 0",
+                      "type": "regex"
+                    },
+                    {
+                      "rule": "^[0-9]{1,14}$",
+                      "message": "Only upto 14 length allowed",
+                      "type": "regex"
+                    }
+                  ]
+                },
+                {
+                  "field": "amountDeducted",
+                  "name": "TDS Deducted",
+                  "type": "decimal",
+                  "seq": 4,
+                  "sumRequired": "N",
+                  "isEditable": false,
+                  "isMandatory": false,
+                  "displayFeedback": false,
+                  "infoCode": "TDS-194",
+                  "validationRegex": []
+                },
+                {
+                  "field": "amountDeposited",
+                  "name": "TDS Deposited",
+                  "type": "decimal",
+                  "seq": 5,
+                  "sumRequired": "N",
+                  "isEditable": false,
+                  "isMandatory": false,
+                  "displayFeedback": false,
+                  "infoCode": "TDS-194",
+                  "validationRegex": []
+                },
+                {
+                  "field": "status",
+                  "name": "Status",
+                  "type": "string",
+                  "seq": 6,
+                  "sumRequired": "N",
+                  "isEditable": false,
+                  "isMandatory": false,
+                  "displayFeedback": false,
+                  "infoCode": "TDS-194",
+                  "validationRegex": []
+                },
+                {
+                  "field": "transFeedback",
+                  "name": "Feedback",
+                  "type": "string",
+                  "seq": 7,
+                  "sumRequired": "N",
+                  "isEditable": false,
+                  "isMandatory": false,
+                  "displayFeedback": false,
+                  "infoCode": null,
+                  "validationRegex": null
+                }
+              ],
+              "columnData": [
+                [
+                  "131250587199826",
+                  "Q2(Jul-Sep)",
+                  "19/09/2025",
+                  "1,316.00",
+                  "132.00",
+                  "132.00",
+                  "Active",
+                  "Optional",
+                  null,
+                  "MUMG12311F",
+                  "",
+                  null,
+                  null,
+                  null,
+                  ""
+                ]
+              ],
+              "columnDataType": [
+                "String",
+                "string",
+                "date",
+                "decimal",
+                "decimal",
+                "decimal",
+                "string",
+                "String",
+                "decimal",
+                "String",
+                "String",
+                "decimal",
+                "decimal",
+                "decimal",
+                "String"
+              ]
+            }
+          },
+          {
+            "title": "Dividend",
+            "l2": {
+              "columnLabel": [
+                "Information Category",
+                "Information Code",
+                "Information Description",
+                "Information Source",
+                "Count",
+                "Amount",
+                "Information Category Code",
+                "Derived Amount",
+                "Qualifies For"
+              ],
+              "columnData": [
+                [
+                  "Dividend",
+                  "TDS-194",
+                  "Dividend received (Section 194)",
+                  "JINDAL STAINLESS LIMITED (DELJ17053B)",
+                  "1",
+                  "592.00",
+                  "DIV",
+                  null,
+                  ""
+                ]
+              ],
+              "columnDataType": [
+                "String",
+                "string",
+                "string",
+                "string",
+                "numeric",
+                "decimal",
+                "String",
+                "decimal",
+                "String"
+              ]
+            },
+            "l1Src": "AIS_TDS_TCS",
+            "l1": {
+              "columnLabel": [
+                {
+                  "field": "tsnId",
+                  "name": "TSN",
+                  "type": "string",
+                  "seq": 0,
+                  "sumRequired": "N",
+                  "isEditable": false,
+                  "isMandatory": false,
+                  "displayFeedback": false,
+                  "infoCode": null,
+                  "validationRegex": null
+                },
+                {
+                  "field": "quarter",
+                  "name": "Quarter",
+                  "type": "string",
+                  "seq": 1,
+                  "sumRequired": "N",
+                  "isEditable": false,
+                  "isMandatory": false,
+                  "displayFeedback": false,
+                  "infoCode": "TDS-194",
+                  "validationRegex": []
+                },
+                {
+                  "field": "transactionDate",
+                  "name": "Date of Payment/Credit",
+                  "type": "date",
+                  "seq": 2,
+                  "sumRequired": "N",
+                  "isEditable": false,
+                  "isMandatory": false,
+                  "displayFeedback": false,
+                  "infoCode": "TDS-194",
+                  "validationRegex": []
+                },
+                {
+                  "field": "amtPaid",
+                  "name": "Amount Paid/Credited",
+                  "type": "decimal",
+                  "seq": 3,
+                  "sumRequired": "Y",
+                  "isEditable": true,
+                  "isMandatory": true,
+                  "displayFeedback": true,
+                  "infoCode": "TDS-194",
+                  "validationRegex": [
+                    {
+                      "rule": "^\\d+$",
+                      "message": "Invalid input. Please enter numeric digits with amount greater than equal to '0'",
+                      "type": "regex"
+                    },
+                    {
+                      "rule": "^[0-9]*$",
+                      "message": "Invalid input. Please enter amount greater than equal to 0",
+                      "type": "regex"
+                    },
+                    {
+                      "rule": "^[0-9]{1,14}$",
+                      "message": "Only upto 14 length allowed",
+                      "type": "regex"
+                    }
+                  ]
+                },
+                {
+                  "field": "amountDeducted",
+                  "name": "TDS Deducted",
+                  "type": "decimal",
+                  "seq": 4,
+                  "sumRequired": "N",
+                  "isEditable": false,
+                  "isMandatory": false,
+                  "displayFeedback": false,
+                  "infoCode": "TDS-194",
+                  "validationRegex": []
+                },
+                {
+                  "field": "amountDeposited",
+                  "name": "TDS Deposited",
+                  "type": "decimal",
+                  "seq": 5,
+                  "sumRequired": "N",
+                  "isEditable": false,
+                  "isMandatory": false,
+                  "displayFeedback": false,
+                  "infoCode": "TDS-194",
+                  "validationRegex": []
+                },
+                {
+                  "field": "status",
+                  "name": "Status",
+                  "type": "string",
+                  "seq": 6,
+                  "sumRequired": "N",
+                  "isEditable": false,
+                  "isMandatory": false,
+                  "displayFeedback": false,
+                  "infoCode": "TDS-194",
+                  "validationRegex": []
+                },
+                {
+                  "field": "transFeedback",
+                  "name": "Feedback",
+                  "type": "string",
+                  "seq": 7,
+                  "sumRequired": "N",
+                  "isEditable": false,
+                  "isMandatory": false,
+                  "displayFeedback": false,
+                  "infoCode": null,
+                  "validationRegex": null
+                }
+              ],
+              "columnData": [
+                [
+                  "131250483378325",
+                  "Q2(Jul-Sep)",
+                  "30/09/2025",
+                  "592.00",
+                  "59.00",
+                  "59.00",
+                  "Active",
+                  "Optional",
+                  null,
+                  "DELJ17053B",
+                  "",
+                  null,
+                  null,
+                  null,
+                  ""
+                ]
+              ],
+              "columnDataType": [
+                "String",
+                "string",
+                "date",
+                "decimal",
+                "decimal",
+                "decimal",
+                "string",
+                "String",
+                "decimal",
+                "String",
+                "String",
+                "decimal",
+                "decimal",
+                "decimal",
+                "String"
+              ]
+            }
+          },
+          {
+            "title": "Dividend",
+            "l2": {
+              "columnLabel": [
+                "Information Category",
+                "Information Code",
+                "Information Description",
+                "Information Source",
+                "Count",
+                "Amount",
+                "Information Category Code",
+                "Derived Amount",
+                "Qualifies For"
+              ],
+              "columnData": [
+                [
+                  "Dividend",
+                  "TDS-194",
+                  "Dividend received (Section 194)",
+                  "BLS INTERNATIONAL SERVICES LIMITED (DELB08085A)",
+                  "1",
+                  "507.00",
+                  "DIV",
+                  null,
+                  ""
+                ]
+              ],
+              "columnDataType": [
+                "String",
+                "string",
+                "string",
+                "string",
+                "numeric",
+                "decimal",
+                "String",
+                "decimal",
+                "String"
+              ]
+            },
+            "l1Src": "AIS_TDS_TCS",
+            "l1": {
+              "columnLabel": [
+                {
+                  "field": "tsnId",
+                  "name": "TSN",
+                  "type": "string",
+                  "seq": 0,
+                  "sumRequired": "N",
+                  "isEditable": false,
+                  "isMandatory": false,
+                  "displayFeedback": false,
+                  "infoCode": null,
+                  "validationRegex": null
+                },
+                {
+                  "field": "quarter",
+                  "name": "Quarter",
+                  "type": "string",
+                  "seq": 1,
+                  "sumRequired": "N",
+                  "isEditable": false,
+                  "isMandatory": false,
+                  "displayFeedback": false,
+                  "infoCode": "TDS-194",
+                  "validationRegex": []
+                },
+                {
+                  "field": "transactionDate",
+                  "name": "Date of Payment/Credit",
+                  "type": "date",
+                  "seq": 2,
+                  "sumRequired": "N",
+                  "isEditable": false,
+                  "isMandatory": false,
+                  "displayFeedback": false,
+                  "infoCode": "TDS-194",
+                  "validationRegex": []
+                },
+                {
+                  "field": "amtPaid",
+                  "name": "Amount Paid/Credited",
+                  "type": "decimal",
+                  "seq": 3,
+                  "sumRequired": "Y",
+                  "isEditable": true,
+                  "isMandatory": true,
+                  "displayFeedback": true,
+                  "infoCode": "TDS-194",
+                  "validationRegex": [
+                    {
+                      "rule": "^\\d+$",
+                      "message": "Invalid input. Please enter numeric digits with amount greater than equal to '0'",
+                      "type": "regex"
+                    },
+                    {
+                      "rule": "^[0-9]*$",
+                      "message": "Invalid input. Please enter amount greater than equal to 0",
+                      "type": "regex"
+                    },
+                    {
+                      "rule": "^[0-9]{1,14}$",
+                      "message": "Only upto 14 length allowed",
+                      "type": "regex"
+                    }
+                  ]
+                },
+                {
+                  "field": "amountDeducted",
+                  "name": "TDS Deducted",
+                  "type": "decimal",
+                  "seq": 4,
+                  "sumRequired": "N",
+                  "isEditable": false,
+                  "isMandatory": false,
+                  "displayFeedback": false,
+                  "infoCode": "TDS-194",
+                  "validationRegex": []
+                },
+                {
+                  "field": "amountDeposited",
+                  "name": "TDS Deposited",
+                  "type": "decimal",
+                  "seq": 5,
+                  "sumRequired": "N",
+                  "isEditable": false,
+                  "isMandatory": false,
+                  "displayFeedback": false,
+                  "infoCode": "TDS-194",
+                  "validationRegex": []
+                },
+                {
+                  "field": "status",
+                  "name": "Status",
+                  "type": "string",
+                  "seq": 6,
+                  "sumRequired": "N",
+                  "isEditable": false,
+                  "isMandatory": false,
+                  "displayFeedback": false,
+                  "infoCode": "TDS-194",
+                  "validationRegex": []
+                },
+                {
+                  "field": "transFeedback",
+                  "name": "Feedback",
+                  "type": "string",
+                  "seq": 7,
+                  "sumRequired": "N",
+                  "isEditable": false,
+                  "isMandatory": false,
+                  "displayFeedback": false,
+                  "infoCode": null,
+                  "validationRegex": null
+                }
+              ],
+              "columnData": [
+                [
+                  "131250936925653",
+                  "Q2(Jul-Sep)",
+                  "30/09/2025",
+                  "507.00",
+                  "51.00",
+                  "51.00",
+                  "Active",
+                  "Optional",
+                  null,
+                  "DELB08085A",
+                  "",
+                  null,
+                  null,
+                  null,
+                  ""
+                ]
+              ],
+              "columnDataType": [
+                "String",
+                "string",
+                "date",
+                "decimal",
+                "decimal",
+                "decimal",
+                "string",
+                "String",
+                "decimal",
+                "String",
+                "String",
+                "decimal",
+                "decimal",
+                "decimal",
+                "String"
+              ]
+            }
+          },
+          {
+            "title": "Dividend",
+            "l2": {
+              "columnLabel": [
+                "Information Category",
+                "Information Code",
+                "Information Description",
+                "Information Source",
+                "Count",
+                "Amount",
+                "Information Category Code",
+                "Derived Amount",
+                "Qualifies For"
+              ],
+              "columnData": [
+                [
+                  "Dividend",
+                  "TDS-194",
+                  "Dividend received (Section 194)",
+                  "INTERGLOBE AVIATION LIMITED (RTKI05922A)",
+                  "1",
+                  "460.00",
+                  "DIV",
+                  null,
+                  ""
+                ]
+              ],
+              "columnDataType": [
+                "String",
+                "string",
+                "string",
+                "string",
+                "numeric",
+                "decimal",
+                "String",
+                "decimal",
+                "String"
+              ]
+            },
+            "l1Src": "AIS_TDS_TCS",
+            "l1": {
+              "columnLabel": [
+                {
+                  "field": "tsnId",
+                  "name": "TSN",
+                  "type": "string",
+                  "seq": 0,
+                  "sumRequired": "N",
+                  "isEditable": false,
+                  "isMandatory": false,
+                  "displayFeedback": false,
+                  "infoCode": null,
+                  "validationRegex": null
+                },
+                {
+                  "field": "quarter",
+                  "name": "Quarter",
+                  "type": "string",
+                  "seq": 1,
+                  "sumRequired": "N",
+                  "isEditable": false,
+                  "isMandatory": false,
+                  "displayFeedback": false,
+                  "infoCode": "TDS-194",
+                  "validationRegex": []
+                },
+                {
+                  "field": "transactionDate",
+                  "name": "Date of Payment/Credit",
+                  "type": "date",
+                  "seq": 2,
+                  "sumRequired": "N",
+                  "isEditable": false,
+                  "isMandatory": false,
+                  "displayFeedback": false,
+                  "infoCode": "TDS-194",
+                  "validationRegex": []
+                },
+                {
+                  "field": "amtPaid",
+                  "name": "Amount Paid/Credited",
+                  "type": "decimal",
+                  "seq": 3,
+                  "sumRequired": "Y",
+                  "isEditable": true,
+                  "isMandatory": true,
+                  "displayFeedback": true,
+                  "infoCode": "TDS-194",
+                  "validationRegex": [
+                    {
+                      "rule": "^\\d+$",
+                      "message": "Invalid input. Please enter numeric digits with amount greater than equal to '0'",
+                      "type": "regex"
+                    },
+                    {
+                      "rule": "^[0-9]*$",
+                      "message": "Invalid input. Please enter amount greater than equal to 0",
+                      "type": "regex"
+                    },
+                    {
+                      "rule": "^[0-9]{1,14}$",
+                      "message": "Only upto 14 length allowed",
+                      "type": "regex"
+                    }
+                  ]
+                },
+                {
+                  "field": "amountDeducted",
+                  "name": "TDS Deducted",
+                  "type": "decimal",
+                  "seq": 4,
+                  "sumRequired": "N",
+                  "isEditable": false,
+                  "isMandatory": false,
+                  "displayFeedback": false,
+                  "infoCode": "TDS-194",
+                  "validationRegex": []
+                },
+                {
+                  "field": "amountDeposited",
+                  "name": "TDS Deposited",
+                  "type": "decimal",
+                  "seq": 5,
+                  "sumRequired": "N",
+                  "isEditable": false,
+                  "isMandatory": false,
+                  "displayFeedback": false,
+                  "infoCode": "TDS-194",
+                  "validationRegex": []
+                },
+                {
+                  "field": "status",
+                  "name": "Status",
+                  "type": "string",
+                  "seq": 6,
+                  "sumRequired": "N",
+                  "isEditable": false,
+                  "isMandatory": false,
+                  "displayFeedback": false,
+                  "infoCode": "TDS-194",
+                  "validationRegex": []
+                },
+                {
+                  "field": "transFeedback",
+                  "name": "Feedback",
+                  "type": "string",
+                  "seq": 7,
+                  "sumRequired": "N",
+                  "isEditable": false,
+                  "isMandatory": false,
+                  "displayFeedback": false,
+                  "infoCode": null,
+                  "validationRegex": null
+                }
+              ],
+              "columnData": [
+                [
+                  "131250871024277",
+                  "Q2(Jul-Sep)",
+                  "27/08/2025",
+                  "460.00",
+                  "46.00",
+                  "46.00",
+                  "Active",
+                  "Optional",
+                  null,
+                  "RTKI05922A",
+                  "",
+                  null,
+                  null,
+                  null,
+                  ""
+                ]
+              ],
+              "columnDataType": [
+                "String",
+                "string",
+                "date",
+                "decimal",
+                "decimal",
+                "decimal",
+                "string",
+                "String",
+                "decimal",
+                "String",
+                "String",
+                "decimal",
+                "decimal",
+                "decimal",
+                "String"
+              ]
+            }
+          },
+          {
+            "title": "Dividend",
+            "l2": {
+              "columnLabel": [
+                "Information Category",
+                "Information Code",
+                "Information Description",
+                "Information Source",
+                "Count",
+                "Amount",
+                "Information Category Code",
+                "Derived Amount",
+                "Qualifies For"
+              ],
+              "columnData": [
+                [
+                  "Dividend",
+                  "TDS-194",
+                  "Dividend received (Section 194)",
+                  "SOLAR INDUSTRIES INDIA LTD (NGPS01592D)",
+                  "1",
+                  "110.00",
+                  "DIV",
+                  null,
+                  ""
+                ]
+              ],
+              "columnDataType": [
+                "String",
+                "string",
+                "string",
+                "string",
+                "numeric",
+                "decimal",
+                "String",
+                "decimal",
+                "String"
+              ]
+            },
+            "l1Src": "AIS_TDS_TCS",
+            "l1": {
+              "columnLabel": [
+                {
+                  "field": "tsnId",
+                  "name": "TSN",
+                  "type": "string",
+                  "seq": 0,
+                  "sumRequired": "N",
+                  "isEditable": false,
+                  "isMandatory": false,
+                  "displayFeedback": false,
+                  "infoCode": null,
+                  "validationRegex": null
+                },
+                {
+                  "field": "quarter",
+                  "name": "Quarter",
+                  "type": "string",
+                  "seq": 1,
+                  "sumRequired": "N",
+                  "isEditable": false,
+                  "isMandatory": false,
+                  "displayFeedback": false,
+                  "infoCode": "TDS-194",
+                  "validationRegex": []
+                },
+                {
+                  "field": "transactionDate",
+                  "name": "Date of Payment/Credit",
+                  "type": "date",
+                  "seq": 2,
+                  "sumRequired": "N",
+                  "isEditable": false,
+                  "isMandatory": false,
+                  "displayFeedback": false,
+                  "infoCode": "TDS-194",
+                  "validationRegex": []
+                },
+                {
+                  "field": "amtPaid",
+                  "name": "Amount Paid/Credited",
+                  "type": "decimal",
+                  "seq": 3,
+                  "sumRequired": "Y",
+                  "isEditable": true,
+                  "isMandatory": true,
+                  "displayFeedback": true,
+                  "infoCode": "TDS-194",
+                  "validationRegex": [
+                    {
+                      "rule": "^\\d+$",
+                      "message": "Invalid input. Please enter numeric digits with amount greater than equal to '0'",
+                      "type": "regex"
+                    },
+                    {
+                      "rule": "^[0-9]*$",
+                      "message": "Invalid input. Please enter amount greater than equal to 0",
+                      "type": "regex"
+                    },
+                    {
+                      "rule": "^[0-9]{1,14}$",
+                      "message": "Only upto 14 length allowed",
+                      "type": "regex"
+                    }
+                  ]
+                },
+                {
+                  "field": "amountDeducted",
+                  "name": "TDS Deducted",
+                  "type": "decimal",
+                  "seq": 4,
+                  "sumRequired": "N",
+                  "isEditable": false,
+                  "isMandatory": false,
+                  "displayFeedback": false,
+                  "infoCode": "TDS-194",
+                  "validationRegex": []
+                },
+                {
+                  "field": "amountDeposited",
+                  "name": "TDS Deposited",
+                  "type": "decimal",
+                  "seq": 5,
+                  "sumRequired": "N",
+                  "isEditable": false,
+                  "isMandatory": false,
+                  "displayFeedback": false,
+                  "infoCode": "TDS-194",
+                  "validationRegex": []
+                },
+                {
+                  "field": "status",
+                  "name": "Status",
+                  "type": "string",
+                  "seq": 6,
+                  "sumRequired": "N",
+                  "isEditable": false,
+                  "isMandatory": false,
+                  "displayFeedback": false,
+                  "infoCode": "TDS-194",
+                  "validationRegex": []
+                },
+                {
+                  "field": "transFeedback",
+                  "name": "Feedback",
+                  "type": "string",
+                  "seq": 7,
+                  "sumRequired": "N",
+                  "isEditable": false,
+                  "isMandatory": false,
+                  "displayFeedback": false,
+                  "infoCode": null,
+                  "validationRegex": null
+                }
+              ],
+              "columnData": [
+                [
+                  "131250892192099",
+                  "Q2(Jul-Sep)",
+                  "31/07/2025",
+                  "110.00",
+                  "11.00",
+                  "11.00",
+                  "Active",
+                  "Optional",
+                  null,
+                  "NGPS01592D",
+                  "",
+                  null,
+                  null,
+                  null,
+                  ""
+                ]
+              ],
+              "columnDataType": [
+                "String",
+                "string",
+                "date",
+                "decimal",
+                "decimal",
+                "decimal",
+                "string",
+                "String",
+                "decimal",
+                "String",
+                "String",
+                "decimal",
+                "decimal",
+                "decimal",
+                "String"
+              ]
+            }
+          },
+          {
+            "title": "Dividend",
+            "l2": {
+              "columnLabel": [
+                "Information Category",
+                "Information Code",
+                "Information Description",
+                "Information Source",
+                "Count",
+                "Amount",
+                "Information Category Code",
+                "Derived Amount",
+                "Qualifies For"
+              ],
+              "columnData": [
+                [
+                  "Dividend",
+                  "TDS-194",
+                  "Dividend received (Section 194)",
+                  "HITACHI ENERGY INDIA LIMITED (BLRA30632A)",
+                  "1",
+                  "54.00",
+                  "DIV",
+                  null,
+                  ""
+                ]
+              ],
+              "columnDataType": [
+                "String",
+                "string",
+                "string",
+                "string",
+                "numeric",
+                "decimal",
+                "String",
+                "decimal",
+                "String"
+              ]
+            },
+            "l1Src": "AIS_TDS_TCS",
+            "l1": {
+              "columnLabel": [
+                {
+                  "field": "tsnId",
+                  "name": "TSN",
+                  "type": "string",
+                  "seq": 0,
+                  "sumRequired": "N",
+                  "isEditable": false,
+                  "isMandatory": false,
+                  "displayFeedback": false,
+                  "infoCode": null,
+                  "validationRegex": null
+                },
+                {
+                  "field": "quarter",
+                  "name": "Quarter",
+                  "type": "string",
+                  "seq": 1,
+                  "sumRequired": "N",
+                  "isEditable": false,
+                  "isMandatory": false,
+                  "displayFeedback": false,
+                  "infoCode": "TDS-194",
+                  "validationRegex": []
+                },
+                {
+                  "field": "transactionDate",
+                  "name": "Date of Payment/Credit",
+                  "type": "date",
+                  "seq": 2,
+                  "sumRequired": "N",
+                  "isEditable": false,
+                  "isMandatory": false,
+                  "displayFeedback": false,
+                  "infoCode": "TDS-194",
+                  "validationRegex": []
+                },
+                {
+                  "field": "amtPaid",
+                  "name": "Amount Paid/Credited",
+                  "type": "decimal",
+                  "seq": 3,
+                  "sumRequired": "Y",
+                  "isEditable": true,
+                  "isMandatory": true,
+                  "displayFeedback": true,
+                  "infoCode": "TDS-194",
+                  "validationRegex": [
+                    {
+                      "rule": "^\\d+$",
+                      "message": "Invalid input. Please enter numeric digits with amount greater than equal to '0'",
+                      "type": "regex"
+                    },
+                    {
+                      "rule": "^[0-9]*$",
+                      "message": "Invalid input. Please enter amount greater than equal to 0",
+                      "type": "regex"
+                    },
+                    {
+                      "rule": "^[0-9]{1,14}$",
+                      "message": "Only upto 14 length allowed",
+                      "type": "regex"
+                    }
+                  ]
+                },
+                {
+                  "field": "amountDeducted",
+                  "name": "TDS Deducted",
+                  "type": "decimal",
+                  "seq": 4,
+                  "sumRequired": "N",
+                  "isEditable": false,
+                  "isMandatory": false,
+                  "displayFeedback": false,
+                  "infoCode": "TDS-194",
+                  "validationRegex": []
+                },
+                {
+                  "field": "amountDeposited",
+                  "name": "TDS Deposited",
+                  "type": "decimal",
+                  "seq": 5,
+                  "sumRequired": "N",
+                  "isEditable": false,
+                  "isMandatory": false,
+                  "displayFeedback": false,
+                  "infoCode": "TDS-194",
+                  "validationRegex": []
+                },
+                {
+                  "field": "status",
+                  "name": "Status",
+                  "type": "string",
+                  "seq": 6,
+                  "sumRequired": "N",
+                  "isEditable": false,
+                  "isMandatory": false,
+                  "displayFeedback": false,
+                  "infoCode": "TDS-194",
+                  "validationRegex": []
+                },
+                {
+                  "field": "transFeedback",
+                  "name": "Feedback",
+                  "type": "string",
+                  "seq": 7,
+                  "sumRequired": "N",
+                  "isEditable": false,
+                  "isMandatory": false,
+                  "displayFeedback": false,
+                  "infoCode": null,
+                  "validationRegex": null
+                }
+              ],
+              "columnData": [
+                [
+                  "131250915751835",
+                  "Q2(Jul-Sep)",
+                  "20/08/2025",
+                  "54.00",
+                  "6.00",
+                  "6.00",
+                  "Active",
+                  "Optional",
+                  null,
+                  "BLRA30632A",
+                  "",
+                  null,
+                  null,
+                  null,
+                  ""
+                ]
+              ],
+              "columnDataType": [
+                "String",
+                "string",
+                "date",
+                "decimal",
+                "decimal",
+                "decimal",
+                "string",
+                "String",
+                "decimal",
+                "String",
+                "String",
+                "decimal",
+                "decimal",
+                "decimal",
+                "String"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "sectionKey": "sft",
+        "title": "Part B2-Information relating to specified financial transaction (SFT)",
+        "heading": "SFT Information",
+        "elements": [
+          {
+            "title": "Sale of securities and units of mutual fund",
+            "l2": {
+              "columnLabel": [
+                "Information Category",
+                "Information Code",
+                "Information Description",
+                "Information Source",
+                "Count",
+                "Amount",
+                "Information Category Code",
+                "Derived Amount",
+                "Qualifies For"
+              ],
+              "columnData": [
+                [
+                  "Sale of securities and units of mutual fund",
+                  "SFT-17-LES(M)",
+                  "Sale of listed equity share (Depository)",
+                  "National Securities Depository Limited (AADCN9802F.AD582)",
+                  "1",
+                  "1,63,406.00",
+                  "SOS",
+                  null,
+                  ""
+                ]
+              ],
+              "columnDataType": [
+                "String",
+                "string",
+                "string",
+                "string",
+                "numeric",
+                "decimal",
+                "String",
+                "decimal",
+                "String"
+              ]
+            },
+            "l1Src": "AIS_SEC_DEP_MF",
+            "l1": {
+              "columnLabel": [
+                {
+                  "field": "tsnId",
+                  "name": "TSN",
+                  "type": "string",
+                  "seq": 0,
+                  "sumRequired": "N",
+                  "isEditable": false,
+                  "isMandatory": false,
+                  "displayFeedback": false,
+                  "infoCode": null,
+                  "validationRegex": null
+                },
+                {
+                  "field": "transferDate",
+                  "name": "Date of Sale/Transfer",
+                  "type": "date",
+                  "seq": 1,
+                  "sumRequired": "N",
+                  "isEditable": true,
+                  "isMandatory": true,
+                  "displayFeedback": false,
+                  "infoCode": "SFT-17-LES(M)",
+                  "validationRegex": []
+                },
+                {
+                  "field": "securityName",
+                  "name": "Security Name (Security Code)",
+                  "type": "string",
+                  "seq": 2,
+                  "sumRequired": "N",
+                  "isEditable": true,
+                  "isMandatory": true,
+                  "displayFeedback": false,
+                  "infoCode": "SFT-17-LES(M)",
+                  "validationRegex": [
+                    {
+                      "rule": "^[A-Za-z0-9][A-Za-z0-9*!'\\\\\\\" :()_@./#&+%\\-,]{0,219}[(][A-Z0-9]{12}[)]$",
+                      "message": "Please provide input in the below mentioned format: Security Name (Security Code). For e.g. if the name is ABC Fund and Code is IBF201K01222 then mention as <strong>ABC Fund (IBF201K01222)</strong>. Allowed special characters are: #,/.'-:",
+                      "type": "regex"
+                    }
+                  ]
+                },
+                {
+                  "field": "securityClass",
+                  "name": "Security Class",
+                  "type": "string",
+                  "seq": 3,
+                  "sumRequired": "N",
+                  "isEditable": true,
+                  "isMandatory": true,
+                  "displayFeedback": false,
+                  "infoCode": "SFT-17-LES(M)",
+                  "validationRegex": [
+                    {
+                      "rule": [
+                        {
+                          "displayName": "Listed Equity Share",
+                          "value": "LES"
+                        },
+                        {
+                          "displayName": "Listed Preference Share",
+                          "value": "LPS"
+                        },
+                        {
+                          "displayName": "Listed Debenture",
+                          "value": "LDB"
+                        },
+                        {
+                          "displayName": "Zero Coupon Bond",
+                          "value": "ZCB"
+                        },
+                        {
+                          "displayName": "Listed Capital Indexed Bond",
+                          "value": "CIB"
+                        },
+                        {
+                          "displayName": "Unit of Equity Oriented Mutual Fund",
+                          "value": "EMF"
+                        },
+                        {
+                          "displayName": "Unit of UTI",
+                          "value": "UTI"
+                        },
+                        {
+                          "displayName": "Unit of Business Trust",
+                          "value": "UBT"
+                        },
+                        {
+                          "displayName": "Other Units",
+                          "value": "OTU"
+                        },
+                        {
+                          "displayName": "Other Listed Securities (Other than a unit)",
+                          "value": "OTH"
+                        }
+                      ],
+                      "message": "Please provide input",
+                      "type": "enum"
+                    }
+                  ]
+                },
+                {
+                  "field": "debitType",
+                  "name": "Debit Type",
+                  "type": "string",
+                  "seq": 4,
+                  "sumRequired": "N",
+                  "isEditable": true,
+                  "isMandatory": true,
+                  "displayFeedback": false,
+                  "infoCode": "SFT-17-LES(M)",
+                  "validationRegex": [
+                    {
+                      "rule": [
+                        {
+                          "displayName": "Market",
+                          "value": "M"
+                        },
+                        {
+                          "displayName": "Off market",
+                          "value": "O"
+                        }
+                      ],
+                      "message": "Please provide input",
+                      "type": "enum"
+                    }
+                  ]
+                },
+                {
+                  "field": "creditType",
+                  "name": "Credit Type",
+                  "type": "string",
+                  "seq": 5,
+                  "sumRequired": "N",
+                  "isEditable": true,
+                  "isMandatory": true,
+                  "displayFeedback": false,
+                  "infoCode": "SFT-17-LES(M)",
+                  "validationRegex": [
+                    {
+                      "rule": [
+                        {
+                          "displayName": "Market",
+                          "value": "M"
+                        },
+                        {
+                          "displayName": "Off market",
+                          "value": "O"
+                        }
+                      ],
+                      "message": "Please provide input",
+                      "type": "enum"
+                    }
+                  ]
+                },
+                {
+                  "field": "assetType",
+                  "name": "Asset Type",
+                  "type": "string",
+                  "seq": 6,
+                  "sumRequired": "N",
+                  "isEditable": true,
+                  "isMandatory": true,
+                  "displayFeedback": false,
+                  "infoCode": "SFT-17-LES(M)",
+                  "validationRegex": [
+                    {
+                      "rule": [
+                        {
+                          "displayName": "Short term",
+                          "value": "S"
+                        },
+                        {
+                          "displayName": "Long term",
+                          "value": "L"
+                        }
+                      ],
+                      "message": "Please provide input",
+                      "type": "enum"
+                    }
+                  ]
+                },
+                {
+                  "field": "quantity",
+                  "name": "Quantity",
+                  "type": "decimal",
+                  "seq": 7,
+                  "sumRequired": "N",
+                  "isEditable": true,
+                  "isMandatory": true,
+                  "displayFeedback": false,
+                  "infoCode": "SFT-17-LES(M)",
+                  "validationRegex": [
+                    {
+                      "rule": "^(?=.*[1-9])\\d{1,14}(?:\\.\\d{1,2})?$",
+                      "message": "Maximum 14 digits are allowed (Excluding decimal values upto 2 places)",
+                      "type": "regex"
+                    }
+                  ]
+                },
+                {
+                  "field": "sellPricePerUnit",
+                  "name": "Sale Price Per unit",
+                  "type": "decimal",
+                  "seq": 8,
+                  "sumRequired": "N",
+                  "isEditable": false,
+                  "isMandatory": true,
+                  "displayFeedback": false,
+                  "infoCode": "SFT-17-LES(M)",
+                  "validationRegex": [
+                    {
+                      "rule": {
+                        "formula": "salesConsideration/quantity",
+                        "fields": [
+                          "salesConsideration",
+                          "quantity"
+                        ]
+                      },
+                      "message": "Please provide input",
+                      "type": "formula"
+                    }
+                  ]
+                },
+                {
+                  "field": "salesConsideration",
+                  "name": "Sales Consideration",
+                  "type": "decimal",
+                  "seq": 9,
+                  "sumRequired": "Y",
+                  "isEditable": true,
+                  "isMandatory": true,
+                  "displayFeedback": true,
+                  "infoCode": "SFT-17-LES(M)",
+                  "validationRegex": [
+                    {
+                      "rule": "^\\d+$",
+                      "message": "Invalid input. Please enter numeric digits with amount greater than equal to '0'",
+                      "type": "regex"
+                    },
+                    {
+                      "rule": "^[0-9]*$",
+                      "message": "Invalid input. Please enter amount greater than equal to 0",
+                      "type": "regex"
+                    },
+                    {
+                      "rule": "^[0-9]{1,14}$",
+                      "message": "Only upto 14 length allowed",
+                      "type": "regex"
+                    }
+                  ]
+                },
+                {
+                  "field": "costOfAcquisition",
+                  "name": "Cost of Acquisition",
+                  "type": "decimal",
+                  "seq": 10,
+                  "sumRequired": "N",
+                  "isEditable": true,
+                  "isMandatory": true,
+                  "displayFeedback": false,
+                  "infoCode": "SFT-17-LES(M)",
+                  "validationRegex": [
+                    {
+                      "rule": "^\\d+$",
+                      "message": "Invalid input. Please enter numeric digits with amount greater than equal to '0'",
+                      "type": "regex"
+                    },
+                    {
+                      "rule": "^[0-9]*$",
+                      "message": "Invalid input. Please enter amount greater than equal to 0",
+                      "type": "regex"
+                    },
+                    {
+                      "rule": "^[0-9]{1,14}$",
+                      "message": "Only upto 14 length allowed",
+                      "type": "regex"
+                    }
+                  ]
+                },
+                {
+                  "field": "fmvValueUnit",
+                  "name": "Unit FMV",
+                  "type": "decimal",
+                  "seq": 11,
+                  "sumRequired": "N",
+                  "isEditable": true,
+                  "isMandatory": true,
+                  "displayFeedback": false,
+                  "infoCode": "SFT-17-LES(M)",
+                  "validationRegex": [
+                    {
+                      "rule": "^\\d{1,14}((\\.\\d{1,2})?)$",
+                      "message": "Maximum 14 digits are allowed (Excluding decimal values upto 2 places)",
+                      "type": "regex"
+                    }
+                  ]
+                },
+                {
+                  "field": "fmvValue",
+                  "name": "Fair Market Value",
+                  "type": "decimal",
+                  "seq": 12,
+                  "sumRequired": "N",
+                  "isEditable": true,
+                  "isMandatory": true,
+                  "displayFeedback": false,
+                  "infoCode": "SFT-17-LES(M)",
+                  "validationRegex": [
+                    {
+                      "rule": "^\\d{1,14}((\\.\\d{1,2})?)$",
+                      "message": "Maximum 14 digits are allowed (Excluding decimal values upto 2 places)",
+                      "type": "regex"
+                    }
+                  ]
+                },
+                {
+                  "field": "indexCostOfAcquisition",
+                  "name": "Indexed Cost of Acquisition",
+                  "type": "decimal",
+                  "seq": 13,
+                  "sumRequired": "N",
+                  "isEditable": true,
+                  "isMandatory": true,
+                  "displayFeedback": false,
+                  "infoCode": "SFT-17-LES(M)",
+                  "validationRegex": [
+                    {
+                      "rule": "^\\d+$",
+                      "message": "Invalid input. Please enter numeric digits with amount greater than equal to '0'",
+                      "type": "regex"
+                    },
+                    {
+                      "rule": "^[0-9]*$",
+                      "message": "Invalid input. Please enter amount greater than equal to 0",
+                      "type": "regex"
+                    },
+                    {
+                      "rule": "^[0-9]{1,14}$",
+                      "message": "Only upto 14 length allowed",
+                      "type": "regex"
+                    }
+                  ]
+                },
+                {
+                  "field": "status",
+                  "name": "Status",
+                  "type": "string",
+                  "seq": 14,
+                  "sumRequired": "N",
+                  "isEditable": false,
+                  "isMandatory": false,
+                  "displayFeedback": false,
+                  "infoCode": "SFT-17-LES(M)",
+                  "validationRegex": []
+                },
+                {
+                  "field": "transFeedback",
+                  "name": "Feedback",
+                  "type": "string",
+                  "seq": 15,
+                  "sumRequired": "N",
+                  "isEditable": false,
+                  "isMandatory": false,
+                  "displayFeedback": false,
+                  "infoCode": null,
+                  "validationRegex": null
+                }
+              ],
+              "columnData": [
+                [
+                  "141250062149247",
+                  "30/09/2025",
+                  "BLS INTERNATIONAL SERVICES LIMITED EQ NEW FV RE. 1/-(INE153T01027)",
+                  "Listed Equity Share",
+                  "Market",
+                  "Market",
+                  "Long term",
+                  "507.00",
+                  "322.30",
+                  "1,63,406.10",
+                  "1,97,679.30",
+                  "0",
+                  "0",
+                  "0",
+                  "Active",
+                  "Optional",
+                  null,
+                  "AADCN9802F.AD582",
+                  "Market",
+                  "1,97,679.30",
+                  "0.00",
+                  "0.00",
+                  ""
+                ]
+              ],
+              "columnDataType": [
+                "String",
+                "date",
+                "string",
+                "string",
+                "string",
+                "string",
+                "string",
+                "decimal",
+                "decimal",
+                "decimal",
+                "decimal",
+                "decimal",
+                "decimal",
+                "decimal",
+                "string",
+                "String",
+                "decimal",
+                "String",
+                "String",
+                "decimal",
+                "decimal",
+                "decimal",
+                "String"
+              ]
+            }
+          },
+          {
+            "title": "Sale of securities and units of mutual fund",
+            "l2": {
+              "columnLabel": [
+                "Information Category",
+                "Information Code",
+                "Information Description",
+                "Information Source",
+                "Count",
+                "Amount",
+                "Information Category Code",
+                "Derived Amount",
+                "Qualifies For"
+              ],
+              "columnData": [
+                [
+                  "Sale of securities and units of mutual fund",
+                  "SFT-17-OTU(M)",
+                  "Sale of other unit (Depository)",
+                  "National Securities Depository Limited (AADCN9802F.AD582)",
+                  "8",
+                  "10,91,274.00",
+                  "SOS",
+                  null,
+                  ""
+                ]
+              ],
+              "columnDataType": [
+                "String",
+                "string",
+                "string",
+                "string",
+                "numeric",
+                "decimal",
+                "String",
+                "decimal",
+                "String"
+              ]
+            },
+            "l1Src": "AIS_SEC_DEP_MF",
+            "l1": {
+              "columnLabel": [
+                {
+                  "field": "tsnId",
+                  "name": "TSN",
+                  "type": "string",
+                  "seq": 0,
+                  "sumRequired": "N",
+                  "isEditable": false,
+                  "isMandatory": false,
+                  "displayFeedback": false,
+                  "infoCode": null,
+                  "validationRegex": null
+                },
+                {
+                  "field": "transferDate",
+                  "name": "Date of Sale/Transfer",
+                  "type": "date",
+                  "seq": 2,
+                  "sumRequired": "N",
+                  "isEditable": true,
+                  "isMandatory": true,
+                  "displayFeedback": false,
+                  "infoCode": "SFT-17-OTU(M)",
+                  "validationRegex": []
+                },
+                {
+                  "field": "securityName",
+                  "name": "Security Name (Security Code)",
+                  "type": "string",
+                  "seq": 3,
+                  "sumRequired": "N",
+                  "isEditable": true,
+                  "isMandatory": true,
+                  "displayFeedback": false,
+                  "infoCode": "SFT-17-OTU(M)",
+                  "validationRegex": [
+                    {
+                      "rule": "^[A-Za-z0-9][A-Za-z0-9*!'\\\\\\\" :()_@./#&+%\\-,]{0,219}[(][A-Z0-9]{12}[)]$",
+                      "message": "Please provide input in the below mentioned format: Security Name (Security Code). For e.g. if the name is ABC Fund and Code is IBF201K01222 then mention as <strong>ABC Fund (IBF201K01222)</strong>. Allowed special characters are: #,/.'-:",
+                      "type": "regex"
+                    }
+                  ]
+                },
+                {
+                  "field": "securityClass",
+                  "name": "Security Class",
+                  "type": "string",
+                  "seq": 4,
+                  "sumRequired": "N",
+                  "isEditable": true,
+                  "isMandatory": true,
+                  "displayFeedback": false,
+                  "infoCode": "SFT-17-OTU(M)",
+                  "validationRegex": [
+                    {
+                      "rule": [
+                        {
+                          "displayName": "Listed Equity Share",
+                          "value": "LES"
+                        },
+                        {
+                          "displayName": "Listed Preference Share",
+                          "value": "LPS"
+                        },
+                        {
+                          "displayName": "Listed Debenture",
+                          "value": "LDB"
+                        },
+                        {
+                          "displayName": "Zero Coupon Bond",
+                          "value": "ZCB"
+                        },
+                        {
+                          "displayName": "Listed Capital Indexed Bond",
+                          "value": "CIB"
+                        },
+                        {
+                          "displayName": "Unit of Equity Oriented Mutual Fund",
+                          "value": "EMF"
+                        },
+                        {
+                          "displayName": "Unit of UTI",
+                          "value": "UTI"
+                        },
+                        {
+                          "displayName": "Unit of Business Trust",
+                          "value": "UBT"
+                        },
+                        {
+                          "displayName": "Other Units",
+                          "value": "OTU"
+                        },
+                        {
+                          "displayName": "Other Listed Securities (Other than a unit)",
+                          "value": "OTH"
+                        }
+                      ],
+                      "message": "Please provide input",
+                      "type": "enum"
+                    }
+                  ]
+                },
+                {
+                  "field": "debitType",
+                  "name": "Debit Type",
+                  "type": "string",
+                  "seq": 5,
+                  "sumRequired": "N",
+                  "isEditable": true,
+                  "isMandatory": true,
+                  "displayFeedback": false,
+                  "infoCode": "SFT-17-OTU(M)",
+                  "validationRegex": [
+                    {
+                      "rule": [
+                        {
+                          "displayName": "Market",
+                          "value": "M"
+                        },
+                        {
+                          "displayName": "Off market",
+                          "value": "O"
+                        }
+                      ],
+                      "message": "Please provide input",
+                      "type": "enum"
+                    }
+                  ]
+                },
+                {
+                  "field": "creditType",
+                  "name": "Credit Type",
+                  "type": "string",
+                  "seq": 6,
+                  "sumRequired": "N",
+                  "isEditable": true,
+                  "isMandatory": true,
+                  "displayFeedback": false,
+                  "infoCode": "SFT-17-OTU(M)",
+                  "validationRegex": [
+                    {
+                      "rule": [
+                        {
+                          "displayName": "Market",
+                          "value": "M"
+                        },
+                        {
+                          "displayName": "Off market",
+                          "value": "O"
+                        }
+                      ],
+                      "message": "Please provide input",
+                      "type": "enum"
+                    }
+                  ]
+                },
+                {
+                  "field": "assetType",
+                  "name": "Asset Type",
+                  "type": "string",
+                  "seq": 7,
+                  "sumRequired": "N",
+                  "isEditable": true,
+                  "isMandatory": true,
+                  "displayFeedback": false,
+                  "infoCode": "SFT-17-OTU(M)",
+                  "validationRegex": [
+                    {
+                      "rule": [
+                        {
+                          "displayName": "Short term",
+                          "value": "S"
+                        },
+                        {
+                          "displayName": "Long term",
+                          "value": "L"
+                        }
+                      ],
+                      "message": "Please provide input",
+                      "type": "enum"
+                    }
+                  ]
+                },
+                {
+                  "field": "quantity",
+                  "name": "Quantity",
+                  "type": "decimal",
+                  "seq": 8,
+                  "sumRequired": "N",
+                  "isEditable": true,
+                  "isMandatory": true,
+                  "displayFeedback": false,
+                  "infoCode": "SFT-17-OTU(M)",
+                  "validationRegex": [
+                    {
+                      "rule": "^(?=.*[1-9])\\d{1,14}(?:\\.\\d{1,2})?$",
+                      "message": "Maximum 14 digits are allowed (Excluding decimal values upto 2 places)",
+                      "type": "regex"
+                    }
+                  ]
+                },
+                {
+                  "field": "sellPricePerUnit",
+                  "name": "Sale Price Per unit",
+                  "type": "decimal",
+                  "seq": 9,
+                  "sumRequired": "N",
+                  "isEditable": false,
+                  "isMandatory": true,
+                  "displayFeedback": false,
+                  "infoCode": "SFT-17-OTU(M)",
+                  "validationRegex": [
+                    {
+                      "rule": {
+                        "formula": "salesConsideration/quantity",
+                        "fields": [
+                          "salesConsideration",
+                          "quantity"
+                        ]
+                      },
+                      "message": "Please provide input",
+                      "type": "formula"
+                    }
+                  ]
+                },
+                {
+                  "field": "salesConsideration",
+                  "name": "Sales Consideration",
+                  "type": "decimal",
+                  "seq": 10,
+                  "sumRequired": "Y",
+                  "isEditable": true,
+                  "isMandatory": true,
+                  "displayFeedback": true,
+                  "infoCode": "SFT-17-OTU(M)",
+                  "validationRegex": [
+                    {
+                      "rule": "^\\d+$",
+                      "message": "Invalid input. Please enter numeric digits with amount greater than equal to '0'",
+                      "type": "regex"
+                    },
+                    {
+                      "rule": "^[0-9]*$",
+                      "message": "Invalid input. Please enter amount greater than equal to 0",
+                      "type": "regex"
+                    },
+                    {
+                      "rule": "^[0-9]{1,14}$",
+                      "message": "Only upto 14 length allowed",
+                      "type": "regex"
+                    }
+                  ]
+                },
+                {
+                  "field": "costOfAcquisition",
+                  "name": "Cost of Acquisition",
+                  "type": "decimal",
+                  "seq": 11,
+                  "sumRequired": "N",
+                  "isEditable": true,
+                  "isMandatory": true,
+                  "displayFeedback": false,
+                  "infoCode": "SFT-17-OTU(M)",
+                  "validationRegex": [
+                    {
+                      "rule": "^\\d+$",
+                      "message": "Invalid input. Please enter numeric digits with amount greater than equal to '0'",
+                      "type": "regex"
+                    },
+                    {
+                      "rule": "^[0-9]*$",
+                      "message": "Invalid input. Please enter amount greater than equal to 0",
+                      "type": "regex"
+                    },
+                    {
+                      "rule": "^[0-9]{1,14}$",
+                      "message": "Only upto 14 length allowed",
+                      "type": "regex"
+                    }
+                  ]
+                },
+                {
+                  "field": "fmvValueUnit",
+                  "name": "Unit FMV",
+                  "type": "decimal",
+                  "seq": 12,
+                  "sumRequired": "N",
+                  "isEditable": true,
+                  "isMandatory": true,
+                  "displayFeedback": false,
+                  "infoCode": "SFT-17-OTU(M)",
+                  "validationRegex": [
+                    {
+                      "rule": "^\\d{1,14}((\\.\\d{1,2})?)$",
+                      "message": "Maximum 14 digits are allowed (Excluding decimal values upto 2 places)",
+                      "type": "regex"
+                    }
+                  ]
+                },
+                {
+                  "field": "fmvValue",
+                  "name": "Fair Market Value",
+                  "type": "decimal",
+                  "seq": 13,
+                  "sumRequired": "N",
+                  "isEditable": true,
+                  "isMandatory": true,
+                  "displayFeedback": false,
+                  "infoCode": "SFT-17-OTU(M)",
+                  "validationRegex": [
+                    {
+                      "rule": "^\\d{1,14}((\\.\\d{1,2})?)$",
+                      "message": "Maximum 14 digits are allowed (Excluding decimal values upto 2 places)",
+                      "type": "regex"
+                    }
+                  ]
+                },
+                {
+                  "field": "indexCostOfAcquisition",
+                  "name": "Indexed Cost of Acquisition",
+                  "type": "decimal",
+                  "seq": 14,
+                  "sumRequired": "N",
+                  "isEditable": true,
+                  "isMandatory": true,
+                  "displayFeedback": false,
+                  "infoCode": "SFT-17-OTU(M)",
+                  "validationRegex": [
+                    {
+                      "rule": "^\\d+$",
+                      "message": "Invalid input. Please enter numeric digits with amount greater than equal to '0'",
+                      "type": "regex"
+                    },
+                    {
+                      "rule": "^[0-9]*$",
+                      "message": "Invalid input. Please enter amount greater than equal to 0",
+                      "type": "regex"
+                    },
+                    {
+                      "rule": "^[0-9]{1,14}$",
+                      "message": "Only upto 14 length allowed",
+                      "type": "regex"
+                    }
+                  ]
+                },
+                {
+                  "field": "status",
+                  "name": "Status",
+                  "type": "string",
+                  "seq": 15,
+                  "sumRequired": "N",
+                  "isEditable": false,
+                  "isMandatory": false,
+                  "displayFeedback": false,
+                  "infoCode": "SFT-17-OTU(M)",
+                  "validationRegex": []
+                },
+                {
+                  "field": "transFeedback",
+                  "name": "Feedback",
+                  "type": "string",
+                  "seq": 16,
+                  "sumRequired": "N",
+                  "isEditable": false,
+                  "isMandatory": false,
+                  "displayFeedback": false,
+                  "infoCode": null,
+                  "validationRegex": null
+                }
+              ],
+              "columnData": [
+                [
+                  "141250119219323",
+                  "15/09/2025",
+                  "ZERODHA MUTUAL FUND ZERODHA NIFTY ID RATE LIQUID ETF DR GRW(INF0R8F01034)",
+                  "Other Units",
+                  "Market",
+                  "Market",
+                  "Short term",
+                  "1,013.00",
+                  "110.43",
+                  "1,11,865.59",
+                  "1,08,147.88",
+                  "0",
+                  "0",
+                  "0",
+                  "Active",
+                  "Optional",
+                  null,
+                  "AADCN9802F.AD582",
+                  "Market",
+                  "1,08,147.88",
+                  "0.00",
+                  "0.00",
+                  ""
+                ],
+                [
+                  "141250119219322",
+                  "21/08/2025",
+                  "ZERODHA MUTUAL FUND ZERODHA NIFTY ID RATE LIQUID ETF DR GRW(INF0R8F01034)",
+                  "Other Units",
+                  "Market",
+                  "Market",
+                  "Short term",
+                  "2,218.00",
+                  "110.05",
+                  "2,44,090.90",
+                  "2,36,793.68",
+                  "0",
+                  "0",
+                  "0",
+                  "Active",
+                  "Optional",
+                  null,
+                  "AADCN9802F.AD582",
+                  "Market",
+                  "2,36,793.68",
+                  "0.00",
+                  "0.00",
+                  ""
+                ],
+                [
+                  "141250119219321",
+                  "28/07/2025",
+                  "ZERODHA MUTUAL FUND ZERODHA NIFTY ID RATE LIQUID ETF DR GRW(INF0R8F01034)",
+                  "Other Units",
+                  "Market",
+                  "Market",
+                  "Short term",
+                  "31.00",
+                  "109.69",
+                  "3,400.39",
+                  "3,309.56",
+                  "0",
+                  "0",
+                  "0",
+                  "Active",
+                  "Optional",
+                  null,
+                  "AADCN9802F.AD582",
+                  "Market",
+                  "3,309.56",
+                  "0.00",
+                  "0.00",
+                  ""
+                ],
+                [
+                  "141250119219320",
+                  "28/07/2025",
+                  "ZERODHA MUTUAL FUND ZERODHA NIFTY ID RATE LIQUID ETF DR GRW(INF0R8F01034)",
+                  "Other Units",
+                  "Market",
+                  "Market",
+                  "Short term",
+                  "691.00",
+                  "109.69",
+                  "75,795.79",
+                  "72,250.96",
+                  "0",
+                  "0",
+                  "0",
+                  "Active",
+                  "Optional",
+                  null,
+                  "AADCN9802F.AD582",
+                  "Market",
+                  "72,250.96",
+                  "0.00",
+                  "0.00",
+                  ""
+                ],
+                [
+                  "141250119219319",
+                  "28/07/2025",
+                  "ZERODHA MUTUAL FUND ZERODHA NIFTY ID RATE LIQUID ETF DR GRW(INF0R8F01034)",
+                  "Other Units",
+                  "Market",
+                  "Market",
+                  "Short term",
+                  "797.00",
+                  "109.69",
+                  "87,422.93",
+                  "82,656.87",
+                  "0",
+                  "0",
+                  "0",
+                  "Active",
+                  "Optional",
+                  null,
+                  "AADCN9802F.AD582",
+                  "Market",
+                  "82,656.87",
+                  "0.00",
+                  "0.00",
+                  ""
+                ],
+                [
+                  "141250119219318",
+                  "30/05/2025",
+                  "ZERODHA MUTUAL FUND ZERODHA NIFTY ID RATE LIQUID ETF DR GRW(INF0R8F01034)",
+                  "Other Units",
+                  "Market",
+                  "Market",
+                  "Short term",
+                  "996.00",
+                  "108.83",
+                  "1,08,394.68",
+                  "1,03,295.16",
+                  "0",
+                  "0",
+                  "0",
+                  "Active",
+                  "Optional",
+                  null,
+                  "AADCN9802F.AD582",
+                  "Market",
+                  "1,03,295.16",
+                  "0.00",
+                  "0.00",
+                  ""
+                ],
+                [
+                  "141250119219317",
+                  "28/05/2025",
+                  "ZERODHA MUTUAL FUND ZERODHA NIFTY ID RATE LIQUID ETF DR GRW(INF0R8F01034)",
+                  "Other Units",
+                  "Market",
+                  "Market",
+                  "Short term",
+                  "2,635.00",
+                  "108.76",
+                  "2,86,582.60",
+                  "2,73,275.85",
+                  "0",
+                  "0",
+                  "0",
+                  "Active",
+                  "Optional",
+                  null,
+                  "AADCN9802F.AD582",
+                  "Market",
+                  "2,73,275.85",
+                  "0.00",
+                  "0.00",
+                  ""
+                ],
+                [
+                  "141250119219316",
+                  "08/05/2025",
+                  "ZERODHA MUTUAL FUND ZERODHA NIFTY ID RATE LIQUID ETF DR GRW(INF0R8F01034)",
+                  "Other Units",
+                  "Market",
+                  "Market",
+                  "Short term",
+                  "1,602.00",
+                  "108.44",
+                  "1,73,720.88",
+                  "1,66,143.42",
+                  "0",
+                  "0",
+                  "0",
+                  "Active",
+                  "Optional",
+                  null,
+                  "AADCN9802F.AD582",
+                  "Market",
+                  "1,66,143.42",
+                  "0.00",
+                  "0.00",
+                  ""
+                ]
+              ],
+              "columnDataType": [
+                "String",
+                "date",
+                "string",
+                "string",
+                "string",
+                "string",
+                "string",
+                "decimal",
+                "decimal",
+                "decimal",
+                "decimal",
+                "decimal",
+                "decimal",
+                "decimal",
+                "string",
+                "String",
+                "decimal",
+                "String",
+                "String",
+                "decimal",
+                "decimal",
+                "decimal",
+                "String"
+              ]
+            }
+          },
+          {
+            "title": "Purchase of securities and units of mutual funds",
+            "l2": {
+              "columnLabel": [
+                "Information Category",
+                "Information Code",
+                "Information Description",
+                "Information Source",
+                "Count",
+                "Amount",
+                "Information Category Code",
+                "Derived Amount",
+                "Qualifies For"
+              ],
+              "columnData": [
+                [
+                  "Purchase of securities and units of mutual funds",
+                  "SFT-18(Pur)",
+                  "Purchase of mutual funds (SFT - 018)",
+                  "Computer Age Management Services Limited - Bandhan AMC Limited(G) (AAACC3035G.AZ670)",
+                  "1",
+                  "3,59,982.00",
+                  "PMF",
+                  null,
+                  ""
+                ]
+              ],
+              "columnDataType": [
+                "String",
+                "string",
+                "string",
+                "string",
+                "numeric",
+                "decimal",
+                "String",
+                "decimal",
+                "String"
+              ]
+            },
+            "l1Src": "AIS_SEC_DEP_MF_HLD_PUR_DIV",
+            "l1": {
+              "columnLabel": [
+                {
+                  "field": "tsnId",
+                  "name": "TSN",
+                  "type": "string",
+                  "seq": 0,
+                  "sumRequired": "N",
+                  "isEditable": false,
+                  "isMandatory": false,
+                  "displayFeedback": false,
+                  "infoCode": null,
+                  "validationRegex": null
+                },
+                {
+                  "field": "quarter",
+                  "name": "Quarter",
+                  "type": "string",
+                  "seq": 1,
+                  "sumRequired": "N",
+                  "isEditable": false,
+                  "isMandatory": false,
+                  "displayFeedback": false,
+                  "infoCode": "SFT-18(Pur)",
+                  "validationRegex": []
+                },
+                {
+                  "field": "clientID",
+                  "name": "Client ID",
+                  "type": "string",
+                  "seq": 2,
+                  "sumRequired": "N",
+                  "isEditable": false,
+                  "isMandatory": false,
+                  "displayFeedback": false,
+                  "infoCode": "SFT-18(Pur)",
+                  "validationRegex": []
+                },
+                {
+                  "field": "amcNameCode",
+                  "name": "AMC Name (Code)",
+                  "type": "string",
+                  "seq": 3,
+                  "sumRequired": "N",
+                  "isEditable": false,
+                  "isMandatory": false,
+                  "displayFeedback": false,
+                  "infoCode": "SFT-18(Pur)",
+                  "validationRegex": []
+                },
+                {
+                  "field": "holderFlag",
+                  "name": "Holder Flag",
+                  "type": "string",
+                  "seq": 5,
+                  "sumRequired": "N",
+                  "isEditable": true,
+                  "isMandatory": true,
+                  "displayFeedback": false,
+                  "infoCode": "SFT-18(Pur)",
+                  "validationRegex": [
+                    {
+                      "rule": [
+                        {
+                          "displayName": "First",
+                          "value": "First"
+                        },
+                        {
+                          "displayName": "Second",
+                          "value": "Second"
+                        },
+                        {
+                          "displayName": "Third",
+                          "value": "Third"
+                        }
+                      ],
+                      "message": "Please provide input",
+                      "type": "enum"
+                    }
+                  ]
+                },
+                {
+                  "field": "totalPurchaseAmount",
+                  "name": "Total Purchase Amount",
+                  "type": "decimal",
+                  "seq": 6,
+                  "sumRequired": "Y",
+                  "isEditable": true,
+                  "isMandatory": true,
+                  "displayFeedback": true,
+                  "infoCode": "SFT-18(Pur)",
+                  "validationRegex": [
+                    {
+                      "rule": "^\\d+$",
+                      "message": "Invalid input. Please enter numeric digits with amount greater than equal to '0'",
+                      "type": "regex"
+                    },
+                    {
+                      "rule": "^[0-9]*$",
+                      "message": "Invalid input. Please enter amount greater than equal to 0",
+                      "type": "regex"
+                    },
+                    {
+                      "rule": "^[0-9]{1,14}$",
+                      "message": "Only upto 14 length allowed",
+                      "type": "regex"
+                    }
+                  ]
+                },
+                {
+                  "field": "totalSalesValue",
+                  "name": "Total Sales Value",
+                  "type": "decimal",
+                  "seq": 7,
+                  "sumRequired": "N",
+                  "isEditable": true,
+                  "isMandatory": true,
+                  "displayFeedback": false,
+                  "infoCode": "SFT-18(Pur)",
+                  "validationRegex": [
+                    {
+                      "rule": "^\\d+$",
+                      "message": "Invalid input. Please enter numeric digits with amount greater than equal to '0'",
+                      "type": "regex"
+                    },
+                    {
+                      "rule": "^[0-9]*$",
+                      "message": "Invalid input. Please enter amount greater than equal to 0",
+                      "type": "regex"
+                    },
+                    {
+                      "rule": "^[0-9]{1,14}$",
+                      "message": "Only upto 14 length allowed",
+                      "type": "regex"
+                    }
+                  ]
+                },
+                {
+                  "field": "status",
+                  "name": "Status",
+                  "type": "string",
+                  "seq": 8,
+                  "sumRequired": "N",
+                  "isEditable": false,
+                  "isMandatory": false,
+                  "displayFeedback": false,
+                  "infoCode": "SFT-18(Pur)",
+                  "validationRegex": []
+                },
+                {
+                  "field": "transFeedback",
+                  "name": "Feedback",
+                  "type": "string",
+                  "seq": 9,
+                  "sumRequired": "N",
+                  "isEditable": false,
+                  "isMandatory": false,
+                  "displayFeedback": false,
+                  "infoCode": null,
+                  "validationRegex": null
+                }
+              ],
+              "columnData": [
+                [
+                  "142250015256287",
+                  "Q2(Jul-Sep)",
+                  "5461379",
+                  "Bandhan AMC Limited(G)",
+                  "First",
+                  "3,59,982.00",
+                  "0",
+                  "Active",
+                  "Optional",
+                  null,
+                  "AAACC3035G.AZ670-AAETS9556K-G",
+                  "",
+                  null,
+                  null,
+                  null,
+                  ""
+                ]
+              ],
+              "columnDataType": [
+                "String",
+                "string",
+                "string",
+                "string",
+                "string",
+                "decimal",
+                "decimal",
+                "string",
+                "String",
+                "decimal",
+                "String",
+                "String",
+                "decimal",
+                "decimal",
+                "decimal",
+                "String"
+              ]
+            }
+          },
+          {
+            "title": "Purchase of securities and units of mutual funds",
+            "l2": {
+              "columnLabel": [
+                "Information Category",
+                "Information Code",
+                "Information Description",
+                "Information Source",
+                "Count",
+                "Amount",
+                "Information Category Code",
+                "Derived Amount",
+                "Qualifies For"
+              ],
+              "columnData": [
+                [
+                  "Purchase of securities and units of mutual funds",
+                  "SFT-18(Pur)",
+                  "Purchase of mutual funds (SFT - 018)",
+                  "Computer Age Management Services Limited - Franklin Templeton Asset Management India Private Limited(FTI) (AAACC3035G.AZ670)",
+                  "1",
+                  "3,59,982.00",
+                  "PMF",
+                  null,
+                  ""
+                ]
+              ],
+              "columnDataType": [
+                "String",
+                "string",
+                "string",
+                "string",
+                "numeric",
+                "decimal",
+                "String",
+                "decimal",
+                "String"
+              ]
+            },
+            "l1Src": "AIS_SEC_DEP_MF_HLD_PUR_DIV",
+            "l1": {
+              "columnLabel": [
+                {
+                  "field": "tsnId",
+                  "name": "TSN",
+                  "type": "string",
+                  "seq": 0,
+                  "sumRequired": "N",
+                  "isEditable": false,
+                  "isMandatory": false,
+                  "displayFeedback": false,
+                  "infoCode": null,
+                  "validationRegex": null
+                },
+                {
+                  "field": "quarter",
+                  "name": "Quarter",
+                  "type": "string",
+                  "seq": 1,
+                  "sumRequired": "N",
+                  "isEditable": false,
+                  "isMandatory": false,
+                  "displayFeedback": false,
+                  "infoCode": "SFT-18(Pur)",
+                  "validationRegex": []
+                },
+                {
+                  "field": "clientID",
+                  "name": "Client ID",
+                  "type": "string",
+                  "seq": 2,
+                  "sumRequired": "N",
+                  "isEditable": false,
+                  "isMandatory": false,
+                  "displayFeedback": false,
+                  "infoCode": "SFT-18(Pur)",
+                  "validationRegex": []
+                },
+                {
+                  "field": "amcNameCode",
+                  "name": "AMC Name (Code)",
+                  "type": "string",
+                  "seq": 3,
+                  "sumRequired": "N",
+                  "isEditable": false,
+                  "isMandatory": false,
+                  "displayFeedback": false,
+                  "infoCode": "SFT-18(Pur)",
+                  "validationRegex": []
+                },
+                {
+                  "field": "holderFlag",
+                  "name": "Holder Flag",
+                  "type": "string",
+                  "seq": 5,
+                  "sumRequired": "N",
+                  "isEditable": true,
+                  "isMandatory": true,
+                  "displayFeedback": false,
+                  "infoCode": "SFT-18(Pur)",
+                  "validationRegex": [
+                    {
+                      "rule": [
+                        {
+                          "displayName": "First",
+                          "value": "First"
+                        },
+                        {
+                          "displayName": "Second",
+                          "value": "Second"
+                        },
+                        {
+                          "displayName": "Third",
+                          "value": "Third"
+                        }
+                      ],
+                      "message": "Please provide input",
+                      "type": "enum"
+                    }
+                  ]
+                },
+                {
+                  "field": "totalPurchaseAmount",
+                  "name": "Total Purchase Amount",
+                  "type": "decimal",
+                  "seq": 6,
+                  "sumRequired": "Y",
+                  "isEditable": true,
+                  "isMandatory": true,
+                  "displayFeedback": true,
+                  "infoCode": "SFT-18(Pur)",
+                  "validationRegex": [
+                    {
+                      "rule": "^\\d+$",
+                      "message": "Invalid input. Please enter numeric digits with amount greater than equal to '0'",
+                      "type": "regex"
+                    },
+                    {
+                      "rule": "^[0-9]*$",
+                      "message": "Invalid input. Please enter amount greater than equal to 0",
+                      "type": "regex"
+                    },
+                    {
+                      "rule": "^[0-9]{1,14}$",
+                      "message": "Only upto 14 length allowed",
+                      "type": "regex"
+                    }
+                  ]
+                },
+                {
+                  "field": "totalSalesValue",
+                  "name": "Total Sales Value",
+                  "type": "decimal",
+                  "seq": 7,
+                  "sumRequired": "N",
+                  "isEditable": true,
+                  "isMandatory": true,
+                  "displayFeedback": false,
+                  "infoCode": "SFT-18(Pur)",
+                  "validationRegex": [
+                    {
+                      "rule": "^\\d+$",
+                      "message": "Invalid input. Please enter numeric digits with amount greater than equal to '0'",
+                      "type": "regex"
+                    },
+                    {
+                      "rule": "^[0-9]*$",
+                      "message": "Invalid input. Please enter amount greater than equal to 0",
+                      "type": "regex"
+                    },
+                    {
+                      "rule": "^[0-9]{1,14}$",
+                      "message": "Only upto 14 length allowed",
+                      "type": "regex"
+                    }
+                  ]
+                },
+                {
+                  "field": "status",
+                  "name": "Status",
+                  "type": "string",
+                  "seq": 8,
+                  "sumRequired": "N",
+                  "isEditable": false,
+                  "isMandatory": false,
+                  "displayFeedback": false,
+                  "infoCode": "SFT-18(Pur)",
+                  "validationRegex": []
+                },
+                {
+                  "field": "transFeedback",
+                  "name": "Feedback",
+                  "type": "string",
+                  "seq": 9,
+                  "sumRequired": "N",
+                  "isEditable": false,
+                  "isMandatory": false,
+                  "displayFeedback": false,
+                  "infoCode": null,
+                  "validationRegex": null
+                }
+              ],
+              "columnData": [
+                [
+                  "142250015097301",
+                  "Q2(Jul-Sep)",
+                  "34752992",
+                  "Franklin Templeton Asset Management India Private Limited(FTI)",
+                  "First",
+                  "3,59,982.00",
+                  "0",
+                  "Active",
+                  "Optional",
+                  null,
+                  "AAACC3035G.AZ670-AAATT4931H-FTI",
+                  "",
+                  null,
+                  null,
+                  null,
+                  ""
+                ]
+              ],
+              "columnDataType": [
+                "String",
+                "string",
+                "string",
+                "string",
+                "string",
+                "decimal",
+                "decimal",
+                "string",
+                "String",
+                "decimal",
+                "String",
+                "String",
+                "decimal",
+                "decimal",
+                "decimal",
+                "String"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "sectionKey": "paymentOfTaxes",
+        "title": "Part B3-Information relating to payment of taxes",
+        "heading": "Payment of Taxes",
+        "elements": [
+          {
+            "title": "",
+            "columnLabel": [
+              "Assessment Year",
+              "Major Head",
+              "Minor Head",
+              "Tax (A)",
+              "Surcharge (B)",
+              "Education Cess (C)",
+              "Others (D)",
+              "Total (A+B+C+D)",
+              "BSR Code",
+              "Date Of Deposit",
+              "Challan Serial Number",
+              "Challan Identification Number"
+            ],
+            "columnData": [
+              [
+                "2026-27",
+                "Corporation Tax Payment",
+                "Advance Tax",
+                "5,50,000",
+                "0",
+                "0",
+                "0",
+                "5,50,000",
+                "0510043",
+                "15/09/2025",
+                "23762",
+                "25091502863749HDFC"
+              ]
+            ],
+            "columnDataType": [
+              "string",
+              "enum",
+              "enum",
+              "decimal",
+              "decimal",
+              "decimal",
+              "decimal",
+              "decimal",
+              "string",
+              "date",
+              "string",
+              "string"
+            ]
+          }
+        ]
+      },
+      {
+        "sectionKey": "demandAndRefund",
+        "title": "Part B4-Information relating to demand and refund",
+        "heading": "Demand and Refund",
+        "subSections": [
+          {
+            "sectionKey": "refund",
+            "title": "Refund",
+            "elements": [
+              {
+                "title": "",
+                "columnLabel": [
+                  "Assessment Year",
+                  "Mode",
+                  "Nature of Refund",
+                  "Refund Amount",
+                  "Date of Payment"
+                ],
+                "columnData": [
+                  [
+                    "2025-26",
+                    "ECS",
+                    "ECS (direct credit to bank account)",
+                    "22,730",
+                    "16/02/2026"
+                  ]
+                ],
+                "columnDataType": [
+                  "enum",
+                  "string",
+                  "string",
+                  "decimal",
+                  "date"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sectionKey": "other-info",
+        "title": "Part B7-Any other information in relation to sub-rule (2) of rule 114-I",
+        "heading": "Other Information",
+        "elements": [
+          {
+            "title": "GST turnover",
+            "l2": {
+              "columnLabel": [
+                "Information Category",
+                "Information Code",
+                "Information Description",
+                "Information Source",
+                "Count",
+                "Amount",
+                "Information Category Code",
+                "Derived Amount",
+                "Qualifies For"
+              ],
+              "columnData": [
+                [
+                  "GST turnover",
+                  "EXC-GSTR3B",
+                  "Sales reported under GSTR-3B",
+                  "THAY TECHWORKS PRIVATE LIMITED (AAJCT9822B)",
+                  "8",
+                  "3,22,06,614.00",
+                  "GST",
+                  null,
+                  ""
+                ]
+              ],
+              "columnDataType": [
+                "String",
+                "string",
+                "string",
+                "string",
+                "numeric",
+                "decimal",
+                "String",
+                "decimal",
+                "String"
+              ]
+            },
+            "l1Src": "AIS_GSTR_1_3B",
+            "l1": {
+              "columnLabel": [
+                {
+                  "field": "tsnId",
+                  "name": "TSN",
+                  "type": "string",
+                  "seq": 0,
+                  "sumRequired": "N",
+                  "isEditable": false,
+                  "isMandatory": false,
+                  "displayFeedback": false,
+                  "infoCode": null,
+                  "validationRegex": null
+                },
+                {
+                  "field": "gstin",
+                  "name": "GSTIN",
+                  "type": "string",
+                  "seq": 2,
+                  "sumRequired": "N",
+                  "isEditable": false,
+                  "isMandatory": false,
+                  "displayFeedback": false,
+                  "infoCode": "EXC-GSTR3B",
+                  "validationRegex": []
+                },
+                {
+                  "field": "returnPrd",
+                  "name": "Return Period",
+                  "type": "date",
+                  "seq": 3,
+                  "sumRequired": "N",
+                  "isEditable": false,
+                  "isMandatory": false,
+                  "displayFeedback": false,
+                  "infoCode": "EXC-GSTR3B",
+                  "validationRegex": []
+                },
+                {
+                  "field": "totalTurnover",
+                  "name": "Total Turnover",
+                  "type": "decimal",
+                  "seq": 4,
+                  "sumRequired": "Y",
+                  "isEditable": true,
+                  "isMandatory": true,
+                  "displayFeedback": true,
+                  "infoCode": "EXC-GSTR3B",
+                  "validationRegex": [
+                    {
+                      "rule": "^\\d+$",
+                      "message": "Invalid input. Please enter numeric digits with amount greater than equal to '0'",
+                      "type": "regex"
+                    },
+                    {
+                      "rule": "^[0-9]*$",
+                      "message": "Invalid input. Please enter amount greater than equal to 0",
+                      "type": "regex"
+                    },
+                    {
+                      "rule": "^[0-9]{1,14}$",
+                      "message": "Only upto 14 length allowed",
+                      "type": "regex"
+                    }
+                  ]
+                },
+                {
+                  "field": "taxableTurnover",
+                  "name": "Taxable Turnover",
+                  "type": "decimal",
+                  "seq": 5,
+                  "sumRequired": "N",
+                  "isEditable": true,
+                  "isMandatory": true,
+                  "displayFeedback": false,
+                  "infoCode": "EXC-GSTR3B",
+                  "validationRegex": [
+                    {
+                      "rule": "^\\d+$",
+                      "message": "Invalid input. Please enter numeric digits with amount greater than equal to '0'",
+                      "type": "regex"
+                    },
+                    {
+                      "rule": "^[0-9]*$",
+                      "message": "Invalid input. Please enter amount greater than equal to 0",
+                      "type": "regex"
+                    },
+                    {
+                      "rule": "^[0-9]{1,14}$",
+                      "message": "Only upto 14 length allowed",
+                      "type": "regex"
+                    }
+                  ]
+                },
+                {
+                  "field": "status",
+                  "name": "Status",
+                  "type": "string",
+                  "seq": 6,
+                  "sumRequired": "N",
+                  "isEditable": false,
+                  "isMandatory": false,
+                  "displayFeedback": false,
+                  "infoCode": "EXC-GSTR3B",
+                  "validationRegex": []
+                },
+                {
+                  "field": "transFeedback",
+                  "name": "Feedback",
+                  "type": "string",
+                  "seq": 7,
+                  "sumRequired": "N",
+                  "isEditable": false,
+                  "isMandatory": false,
+                  "displayFeedback": false,
+                  "infoCode": null,
+                  "validationRegex": null
+                }
+              ],
+              "columnData": [
+                [
+                  "126250439466180",
+                  "24AAJCT9822B1ZE",
+                  "NOV-2025",
+                  "33,13,106.00",
+                  "33,13,106.00",
+                  "Active",
+                  "Optional",
+                  null,
+                  "24AAJCT9822B1ZE",
+                  "",
+                  null,
+                  null,
+                  null,
+                  ""
+                ],
+                [
+                  "126250432350096",
+                  "24AAJCT9822B1ZE",
+                  "OCT-2025",
+                  "56,16,815.00",
+                  "56,16,815.00",
+                  "Active",
+                  "Optional",
+                  null,
+                  "24AAJCT9822B1ZE",
+                  "",
+                  null,
+                  null,
+                  null,
+                  ""
+                ],
+                [
+                  "126250422929442",
+                  "24AAJCT9822B1ZE",
+                  "SEP-2025",
+                  "16,18,114.05",
+                  "16,18,114.05",
+                  "Active",
+                  "Optional",
+                  null,
+                  "24AAJCT9822B1ZE",
+                  "",
+                  null,
+                  null,
+                  null,
+                  ""
+                ],
+                [
+                  "126250412358491",
+                  "24AAJCT9822B1ZE",
+                  "AUG-2025",
+                  "61,84,463.42",
+                  "61,84,463.42",
+                  "Active",
+                  "Optional",
+                  null,
+                  "24AAJCT9822B1ZE",
+                  "",
+                  null,
+                  null,
+                  null,
+                  ""
+                ],
+                [
+                  "126250295753747",
+                  "24AAJCT9822B1ZE",
+                  "JUL-2025",
+                  "59,88,932.77",
+                  "59,88,932.77",
+                  "Active",
+                  "Optional",
+                  null,
+                  "24AAJCT9822B1ZE",
+                  "",
+                  null,
+                  null,
+                  null,
+                  ""
+                ],
+                [
+                  "126250109080427",
+                  "24AAJCT9822B1ZE",
+                  "JUN-2025",
+                  "29,10,854.25",
+                  "29,10,854.25",
+                  "Active",
+                  "Optional",
+                  null,
+                  "24AAJCT9822B1ZE",
+                  "",
+                  null,
+                  null,
+                  null,
+                  ""
+                ],
+                [
+                  "126250097200206",
+                  "24AAJCT9822B1ZE",
+                  "MAY-2025",
+                  "33,82,918.00",
+                  "33,82,918.00",
+                  "Active",
+                  "Optional",
+                  null,
+                  "24AAJCT9822B1ZE",
+                  "",
+                  null,
+                  null,
+                  null,
+                  ""
+                ],
+                [
+                  "126250006226521",
+                  "24AAJCT9822B1ZE",
+                  "APR-2025",
+                  "31,91,411.00",
+                  "31,91,411.00",
+                  "Active",
+                  "Optional",
+                  null,
+                  "24AAJCT9822B1ZE",
+                  "",
+                  null,
+                  null,
+                  null,
+                  ""
+                ]
+              ],
+              "columnDataType": [
+                "String",
+                "string",
+                "date",
+                "decimal",
+                "decimal",
+                "string",
+                "String",
+                "decimal",
+                "String",
+                "String",
+                "decimal",
+                "decimal",
+                "decimal",
+                "String"
+              ]
+            }
+          },
+          {
+            "title": "GST purchases",
+            "l2": {
+              "columnLabel": [
+                "Information Category",
+                "Information Code",
+                "Information Description",
+                "Information Source",
+                "Count",
+                "Amount",
+                "Information Category Code",
+                "Derived Amount",
+                "Qualifies For"
+              ],
+              "columnData": [
+                [
+                  "GST purchases",
+                  "EXC-GSTR1(P)",
+                  "Purchases reported under GSTR-1 of seller",
+                  "ICICI BANK LIMITED (AAACI1195H)",
+                  "8",
+                  "1,06,092.00",
+                  "GSP",
+                  null,
+                  ""
+                ]
+              ],
+              "columnDataType": [
+                "String",
+                "string",
+                "string",
+                "string",
+                "numeric",
+                "decimal",
+                "String",
+                "decimal",
+                "String"
+              ]
+            },
+            "l1Src": "AIS_GSTR_1_3B",
+            "l1": {
+              "columnLabel": [
+                {
+                  "field": "tsnId",
+                  "name": "TSN",
+                  "type": "string",
+                  "seq": 0,
+                  "sumRequired": "N",
+                  "isEditable": false,
+                  "isMandatory": false,
+                  "displayFeedback": false,
+                  "infoCode": null,
+                  "validationRegex": null
+                },
+                {
+                  "field": "gstin",
+                  "name": "GSTIN",
+                  "type": "string",
+                  "seq": 2,
+                  "sumRequired": "N",
+                  "isEditable": false,
+                  "isMandatory": false,
+                  "displayFeedback": false,
+                  "infoCode": "EXC-GSTR1(P)",
+                  "validationRegex": []
+                },
+                {
+                  "field": "supplierGstin",
+                  "name": "Supplier Name (GSTIN)",
+                  "type": "string",
+                  "seq": 3,
+                  "sumRequired": "N",
+                  "isEditable": false,
+                  "isMandatory": false,
+                  "displayFeedback": false,
+                  "infoCode": "EXC-GSTR1(P)",
+                  "validationRegex": []
+                },
+                {
+                  "field": "returnPrd",
+                  "name": "Return Period",
+                  "type": "date",
+                  "seq": 4,
+                  "sumRequired": "N",
+                  "isEditable": false,
+                  "isMandatory": false,
+                  "displayFeedback": false,
+                  "infoCode": "EXC-GSTR1(P)",
+                  "validationRegex": []
+                },
+                {
+                  "field": "totalTurnover",
+                  "name": "Purchase from supplier",
+                  "type": "decimal",
+                  "seq": 5,
+                  "sumRequired": "Y",
+                  "isEditable": true,
+                  "isMandatory": true,
+                  "displayFeedback": true,
+                  "infoCode": "EXC-GSTR1(P)",
+                  "validationRegex": [
+                    {
+                      "rule": "^\\d+$",
+                      "message": "Invalid input. Please enter numeric digits with amount greater than equal to '0'",
+                      "type": "regex"
+                    },
+                    {
+                      "rule": "^[0-9]*$",
+                      "message": "Invalid input. Please enter amount greater than equal to 0",
+                      "type": "regex"
+                    },
+                    {
+                      "rule": "^[0-9]{1,14}$",
+                      "message": "Only upto 14 length allowed",
+                      "type": "regex"
+                    }
+                  ]
+                },
+                {
+                  "field": "status",
+                  "name": "Status",
+                  "type": "string",
+                  "seq": 6,
+                  "sumRequired": "N",
+                  "isEditable": false,
+                  "isMandatory": false,
+                  "displayFeedback": false,
+                  "infoCode": "EXC-GSTR1(P)",
+                  "validationRegex": []
+                },
+                {
+                  "field": "transFeedback",
+                  "name": "Feedback",
+                  "type": "string",
+                  "seq": 7,
+                  "sumRequired": "N",
+                  "isEditable": false,
+                  "isMandatory": false,
+                  "displayFeedback": false,
+                  "infoCode": null,
+                  "validationRegex": null
+                }
+              ],
+              "columnData": [
+                [
+                  "126250764381533",
+                  "24AAJCT9822B1ZE",
+                  "ICICI BANK LIMITED (24AAACI1195H1ZS)",
+                  "NOV-2025",
+                  "12,320.71",
+                  "Active",
+                  "Optional",
+                  null,
+                  "24AAACI1195H1ZS",
+                  "",
+                  null,
+                  null,
+                  null,
+                  ""
+                ],
+                [
+                  "126250673172939",
+                  "24AAJCT9822B1ZE",
+                  "ICICI BANK LIMITED (24AAACI1195H1ZS)",
+                  "OCT-2025",
+                  "19,105.16",
+                  "Active",
+                  "Optional",
+                  null,
+                  "24AAACI1195H1ZS",
+                  "",
+                  null,
+                  null,
+                  null,
+                  ""
+                ],
+                [
+                  "126250578188340",
+                  "24AAJCT9822B1ZE",
+                  "ICICI BANK LIMITED (24AAACI1195H1ZS)",
+                  "SEP-2025",
+                  "19,778.72",
+                  "Active",
+                  "Optional",
+                  null,
+                  "24AAACI1195H1ZS",
+                  "",
+                  null,
+                  null,
+                  null,
+                  ""
+                ],
+                [
+                  "126250485864761",
+                  "24AAJCT9822B1ZE",
+                  "ICICI BANK LIMITED (24AAACI1195H1ZS)",
+                  "AUG-2025",
+                  "12,213.13",
+                  "Active",
+                  "Optional",
+                  null,
+                  "24AAACI1195H1ZS",
+                  "",
+                  null,
+                  null,
+                  null,
+                  ""
+                ],
+                [
+                  "126250350188782",
+                  "24AAJCT9822B1ZE",
+                  "ICICI BANK LIMITED (24AAACI1195H1ZS)",
+                  "JUL-2025",
+                  "19,354.48",
+                  "Active",
+                  "Optional",
+                  null,
+                  "24AAACI1195H1ZS",
+                  "",
+                  null,
+                  null,
+                  null,
+                  ""
+                ],
+                [
+                  "126250244402392",
+                  "24AAJCT9822B1ZE",
+                  "ICICI BANK LIMITED (24AAACI1195H1ZS)",
+                  "JUN-2025",
+                  "7,912.37",
+                  "Active",
+                  "Optional",
+                  null,
+                  "24AAACI1195H1ZS",
+                  "",
+                  null,
+                  null,
+                  null,
+                  ""
+                ],
+                [
+                  "126250154556054",
+                  "24AAJCT9822B1ZE",
+                  "ICICI BANK LIMITED (24AAACI1195H1ZS)",
+                  "MAY-2025",
+                  "7,722.97",
+                  "Active",
+                  "Optional",
+                  null,
+                  "24AAACI1195H1ZS",
+                  "",
+                  null,
+                  null,
+                  null,
+                  ""
+                ],
+                [
+                  "126250046580529",
+                  "24AAJCT9822B1ZE",
+                  "ICICI BANK LIMITED (24AAACI1195H1ZS)",
+                  "APR-2025",
+                  "7,684.60",
+                  "Active",
+                  "Optional",
+                  null,
+                  "24AAACI1195H1ZS",
+                  "",
+                  null,
+                  null,
+                  null,
+                  ""
+                ]
+              ],
+              "columnDataType": [
+                "String",
+                "string",
+                "string",
+                "date",
+                "decimal",
+                "string",
+                "String",
+                "decimal",
+                "String",
+                "String",
+                "decimal",
+                "decimal",
+                "decimal",
+                "String"
+              ]
+            }
+          },
+          {
+            "title": "GST purchases",
+            "l2": {
+              "columnLabel": [
+                "Information Category",
+                "Information Code",
+                "Information Description",
+                "Information Source",
+                "Count",
+                "Amount",
+                "Information Category Code",
+                "Derived Amount",
+                "Qualifies For"
+              ],
+              "columnData": [
+                [
+                  "GST purchases",
+                  "EXC-GSTR1(P)",
+                  "Purchases reported under GSTR-1 of seller",
+                  "TURTLE WEALTH MANAGEMENT PRIVATE LIMITED (AAECT2427K)",
+                  "1",
+                  "30,656.00",
+                  "GSP",
+                  null,
+                  ""
+                ]
+              ],
+              "columnDataType": [
+                "String",
+                "string",
+                "string",
+                "string",
+                "numeric",
+                "decimal",
+                "String",
+                "decimal",
+                "String"
+              ]
+            },
+            "l1Src": "AIS_GSTR_1_3B",
+            "l1": {
+              "columnLabel": [
+                {
+                  "field": "tsnId",
+                  "name": "TSN",
+                  "type": "string",
+                  "seq": 0,
+                  "sumRequired": "N",
+                  "isEditable": false,
+                  "isMandatory": false,
+                  "displayFeedback": false,
+                  "infoCode": null,
+                  "validationRegex": null
+                },
+                {
+                  "field": "gstin",
+                  "name": "GSTIN",
+                  "type": "string",
+                  "seq": 2,
+                  "sumRequired": "N",
+                  "isEditable": false,
+                  "isMandatory": false,
+                  "displayFeedback": false,
+                  "infoCode": "EXC-GSTR1(P)",
+                  "validationRegex": []
+                },
+                {
+                  "field": "supplierGstin",
+                  "name": "Supplier Name (GSTIN)",
+                  "type": "string",
+                  "seq": 3,
+                  "sumRequired": "N",
+                  "isEditable": false,
+                  "isMandatory": false,
+                  "displayFeedback": false,
+                  "infoCode": "EXC-GSTR1(P)",
+                  "validationRegex": []
+                },
+                {
+                  "field": "returnPrd",
+                  "name": "Return Period",
+                  "type": "date",
+                  "seq": 4,
+                  "sumRequired": "N",
+                  "isEditable": false,
+                  "isMandatory": false,
+                  "displayFeedback": false,
+                  "infoCode": "EXC-GSTR1(P)",
+                  "validationRegex": []
+                },
+                {
+                  "field": "totalTurnover",
+                  "name": "Purchase from supplier",
+                  "type": "decimal",
+                  "seq": 5,
+                  "sumRequired": "Y",
+                  "isEditable": true,
+                  "isMandatory": true,
+                  "displayFeedback": true,
+                  "infoCode": "EXC-GSTR1(P)",
+                  "validationRegex": [
+                    {
+                      "rule": "^\\d+$",
+                      "message": "Invalid input. Please enter numeric digits with amount greater than equal to '0'",
+                      "type": "regex"
+                    },
+                    {
+                      "rule": "^[0-9]*$",
+                      "message": "Invalid input. Please enter amount greater than equal to 0",
+                      "type": "regex"
+                    },
+                    {
+                      "rule": "^[0-9]{1,14}$",
+                      "message": "Only upto 14 length allowed",
+                      "type": "regex"
+                    }
+                  ]
+                },
+                {
+                  "field": "status",
+                  "name": "Status",
+                  "type": "string",
+                  "seq": 6,
+                  "sumRequired": "N",
+                  "isEditable": false,
+                  "isMandatory": false,
+                  "displayFeedback": false,
+                  "infoCode": "EXC-GSTR1(P)",
+                  "validationRegex": []
+                },
+                {
+                  "field": "transFeedback",
+                  "name": "Feedback",
+                  "type": "string",
+                  "seq": 7,
+                  "sumRequired": "N",
+                  "isEditable": false,
+                  "isMandatory": false,
+                  "displayFeedback": false,
+                  "infoCode": null,
+                  "validationRegex": null
+                }
+              ],
+              "columnData": [
+                [
+                  "126250699437720",
+                  "24AAJCT9822B1ZE",
+                  "TURTLE WEALTH MANAGEMENT PRIVATE LIMITED (24AAECT2427K1ZD)",
+                  "OCT-2025",
+                  "30,655.77",
+                  "Active",
+                  "Optional",
+                  null,
+                  "24AAECT2427K1ZD",
+                  "",
+                  null,
+                  null,
+                  null,
+                  ""
+                ]
+              ],
+              "columnDataType": [
+                "String",
+                "string",
+                "string",
+                "date",
+                "decimal",
+                "string",
+                "String",
+                "decimal",
+                "String",
+                "String",
+                "decimal",
+                "decimal",
+                "decimal",
+                "String"
+              ]
+            }
+          },
+          {
+            "title": "GST purchases",
+            "l2": {
+              "columnLabel": [
+                "Information Category",
+                "Information Code",
+                "Information Description",
+                "Information Source",
+                "Count",
+                "Amount",
+                "Information Category Code",
+                "Derived Amount",
+                "Qualifies For"
+              ],
+              "columnData": [
+                [
+                  "GST purchases",
+                  "EXC-GSTR1(P)",
+                  "Purchases reported under GSTR-1 of seller",
+                  "CPS TECHNOLOGIES (AAHFC9868R)",
+                  "1",
+                  "27,034.00",
+                  "GSP",
+                  null,
+                  ""
+                ]
+              ],
+              "columnDataType": [
+                "String",
+                "string",
+                "string",
+                "string",
+                "numeric",
+                "decimal",
+                "String",
+                "decimal",
+                "String"
+              ]
+            },
+            "l1Src": "AIS_GSTR_1_3B",
+            "l1": {
+              "columnLabel": [
+                {
+                  "field": "tsnId",
+                  "name": "TSN",
+                  "type": "string",
+                  "seq": 0,
+                  "sumRequired": "N",
+                  "isEditable": false,
+                  "isMandatory": false,
+                  "displayFeedback": false,
+                  "infoCode": null,
+                  "validationRegex": null
+                },
+                {
+                  "field": "gstin",
+                  "name": "GSTIN",
+                  "type": "string",
+                  "seq": 2,
+                  "sumRequired": "N",
+                  "isEditable": false,
+                  "isMandatory": false,
+                  "displayFeedback": false,
+                  "infoCode": "EXC-GSTR1(P)",
+                  "validationRegex": []
+                },
+                {
+                  "field": "supplierGstin",
+                  "name": "Supplier Name (GSTIN)",
+                  "type": "string",
+                  "seq": 3,
+                  "sumRequired": "N",
+                  "isEditable": false,
+                  "isMandatory": false,
+                  "displayFeedback": false,
+                  "infoCode": "EXC-GSTR1(P)",
+                  "validationRegex": []
+                },
+                {
+                  "field": "returnPrd",
+                  "name": "Return Period",
+                  "type": "date",
+                  "seq": 4,
+                  "sumRequired": "N",
+                  "isEditable": false,
+                  "isMandatory": false,
+                  "displayFeedback": false,
+                  "infoCode": "EXC-GSTR1(P)",
+                  "validationRegex": []
+                },
+                {
+                  "field": "totalTurnover",
+                  "name": "Purchase from supplier",
+                  "type": "decimal",
+                  "seq": 5,
+                  "sumRequired": "Y",
+                  "isEditable": true,
+                  "isMandatory": true,
+                  "displayFeedback": true,
+                  "infoCode": "EXC-GSTR1(P)",
+                  "validationRegex": [
+                    {
+                      "rule": "^\\d+$",
+                      "message": "Invalid input. Please enter numeric digits with amount greater than equal to '0'",
+                      "type": "regex"
+                    },
+                    {
+                      "rule": "^[0-9]*$",
+                      "message": "Invalid input. Please enter amount greater than equal to 0",
+                      "type": "regex"
+                    },
+                    {
+                      "rule": "^[0-9]{1,14}$",
+                      "message": "Only upto 14 length allowed",
+                      "type": "regex"
+                    }
+                  ]
+                },
+                {
+                  "field": "status",
+                  "name": "Status",
+                  "type": "string",
+                  "seq": 6,
+                  "sumRequired": "N",
+                  "isEditable": false,
+                  "isMandatory": false,
+                  "displayFeedback": false,
+                  "infoCode": "EXC-GSTR1(P)",
+                  "validationRegex": []
+                },
+                {
+                  "field": "transFeedback",
+                  "name": "Feedback",
+                  "type": "string",
+                  "seq": 7,
+                  "sumRequired": "N",
+                  "isEditable": false,
+                  "isMandatory": false,
+                  "displayFeedback": false,
+                  "infoCode": null,
+                  "validationRegex": null
+                }
+              ],
+              "columnData": [
+                [
+                  "126250017925182",
+                  "24AAJCT9822B1ZE",
+                  "CPS TECHNOLOGIES (24AAHFC9868R1ZG)",
+                  "APR-2025",
+                  "27,033.90",
+                  "Active",
+                  "Optional",
+                  null,
+                  "24AAHFC9868R1ZG",
+                  "",
+                  null,
+                  null,
+                  null,
+                  ""
+                ]
+              ],
+              "columnDataType": [
+                "String",
+                "string",
+                "string",
+                "date",
+                "decimal",
+                "string",
+                "String",
+                "decimal",
+                "String",
+                "String",
+                "decimal",
+                "decimal",
+                "decimal",
+                "String"
+              ]
+            }
+          },
+          {
+            "title": "GST purchases",
+            "l2": {
+              "columnLabel": [
+                "Information Category",
+                "Information Code",
+                "Information Description",
+                "Information Source",
+                "Count",
+                "Amount",
+                "Information Category Code",
+                "Derived Amount",
+                "Qualifies For"
+              ],
+              "columnData": [
+                [
+                  "GST purchases",
+                  "EXC-GSTR1(P)",
+                  "Purchases reported under GSTR-1 of seller",
+                  "EFSOULS LIMITED LIABILITY PARTNERSHIP (AAIFE9288Q)",
+                  "1",
+                  "16,500.00",
+                  "GSP",
+                  null,
+                  ""
+                ]
+              ],
+              "columnDataType": [
+                "String",
+                "string",
+                "string",
+                "string",
+                "numeric",
+                "decimal",
+                "String",
+                "decimal",
+                "String"
+              ]
+            },
+            "l1Src": "AIS_GSTR_1_3B",
+            "l1": {
+              "columnLabel": [
+                {
+                  "field": "tsnId",
+                  "name": "TSN",
+                  "type": "string",
+                  "seq": 0,
+                  "sumRequired": "N",
+                  "isEditable": false,
+                  "isMandatory": false,
+                  "displayFeedback": false,
+                  "infoCode": null,
+                  "validationRegex": null
+                },
+                {
+                  "field": "gstin",
+                  "name": "GSTIN",
+                  "type": "string",
+                  "seq": 2,
+                  "sumRequired": "N",
+                  "isEditable": false,
+                  "isMandatory": false,
+                  "displayFeedback": false,
+                  "infoCode": "EXC-GSTR1(P)",
+                  "validationRegex": []
+                },
+                {
+                  "field": "supplierGstin",
+                  "name": "Supplier Name (GSTIN)",
+                  "type": "string",
+                  "seq": 3,
+                  "sumRequired": "N",
+                  "isEditable": false,
+                  "isMandatory": false,
+                  "displayFeedback": false,
+                  "infoCode": "EXC-GSTR1(P)",
+                  "validationRegex": []
+                },
+                {
+                  "field": "returnPrd",
+                  "name": "Return Period",
+                  "type": "date",
+                  "seq": 4,
+                  "sumRequired": "N",
+                  "isEditable": false,
+                  "isMandatory": false,
+                  "displayFeedback": false,
+                  "infoCode": "EXC-GSTR1(P)",
+                  "validationRegex": []
+                },
+                {
+                  "field": "totalTurnover",
+                  "name": "Purchase from supplier",
+                  "type": "decimal",
+                  "seq": 5,
+                  "sumRequired": "Y",
+                  "isEditable": true,
+                  "isMandatory": true,
+                  "displayFeedback": true,
+                  "infoCode": "EXC-GSTR1(P)",
+                  "validationRegex": [
+                    {
+                      "rule": "^\\d+$",
+                      "message": "Invalid input. Please enter numeric digits with amount greater than equal to '0'",
+                      "type": "regex"
+                    },
+                    {
+                      "rule": "^[0-9]*$",
+                      "message": "Invalid input. Please enter amount greater than equal to 0",
+                      "type": "regex"
+                    },
+                    {
+                      "rule": "^[0-9]{1,14}$",
+                      "message": "Only upto 14 length allowed",
+                      "type": "regex"
+                    }
+                  ]
+                },
+                {
+                  "field": "status",
+                  "name": "Status",
+                  "type": "string",
+                  "seq": 6,
+                  "sumRequired": "N",
+                  "isEditable": false,
+                  "isMandatory": false,
+                  "displayFeedback": false,
+                  "infoCode": "EXC-GSTR1(P)",
+                  "validationRegex": []
+                },
+                {
+                  "field": "transFeedback",
+                  "name": "Feedback",
+                  "type": "string",
+                  "seq": 7,
+                  "sumRequired": "N",
+                  "isEditable": false,
+                  "isMandatory": false,
+                  "displayFeedback": false,
+                  "infoCode": null,
+                  "validationRegex": null
+                }
+              ],
+              "columnData": [
+                [
+                  "126250399009275",
+                  "24AAJCT9822B1ZE",
+                  "EFSOULS LIMITED LIABILITY PARTNERSHIP (24AAIFE9288Q1ZH)",
+                  "JUL-2025",
+                  "16,500.00",
+                  "Active",
+                  "Optional",
+                  null,
+                  "24AAIFE9288Q1ZH",
+                  "",
+                  null,
+                  null,
+                  null,
+                  ""
+                ]
+              ],
+              "columnDataType": [
+                "String",
+                "string",
+                "string",
+                "date",
+                "decimal",
+                "string",
+                "String",
+                "decimal",
+                "String",
+                "String",
+                "decimal",
+                "decimal",
+                "decimal",
+                "String"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "rejectedFeedbacks": null,
+  "footer": {
+    "title": "",
+    "columnLabel": [
+      "Download ID",
+      "IP Address",
+      "Generation Date"
+    ],
+    "columnData": [
+      "AAJCT9822B202603121918",
+      "49.36.119.150",
+      "12/03/2026, 19:18:44"
+    ]
+  },
+  "fileSize": null
+}
